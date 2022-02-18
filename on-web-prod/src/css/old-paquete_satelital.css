@@ -1,0 +1,520 @@
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#OnSatImg {
+    width: 80px;
+    height: auto;
+   margin-top: -3%;
+}
+
+#OnSat-Title {
+    font-size: 3.8em;
+    color: #512F84;
+    display: inline-block;
+    font-family: 'Futura Book';
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0px;
+
+}
+
+#OnSat-SubTitle {
+    font-size: 3.5em;
+    text-align: center;
+    color: #66696b;
+    font-weight: bolder;
+    font-family: 'Frutiger Bold';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+#hr-stilo {
+ height: 1px;
+  background-color:#96C942;
+   width: 70%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+#OnSat-SubTitle01 {
+     font-size: 1.5em;
+    text-align: center;
+    color: #66696b;
+    font-weight: bolder;
+    font-family: 'Frutiger Bold';
+    font-weight: 900;
+    font-style: normal;
+    margin: 0px;
+}
+
+.Sup-Hasta {
+    font-size: .7em;
+    color: #fff;
+    font-family: 'Futura Book';
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    top: 3px;
+    
+    
+}
+
+.Megas-Cap {
+    font-family: 'Futura Book';
+    font-weight: 500;
+    font-size:3.5em;
+    color: #96C942;
+    font-style: normal;
+   
+    
+}
+
+.Megas-Text {
+     font-family: 'Futura Book';
+    font-weight: 500;
+    font-size:1.5em;
+    color: #96C942;
+    font-style: normal;
+    position: relative;
+   bottom: 20px;
+    margin-bottom: 26px;
+    
+}
+
+#app .Container {
+    padding: 0 15px;
+}
+
+.Title-Capacidad {
+     font-family: 'Futura Book';
+    font-weight: 500;
+    font-size:1em;
+    color: #512F84;
+    font-style: normal;
+}
+
+.Triangulo {
+    position: relative;
+    bottom: 15px;
+    display: inline-block;
+}
+
+.hr-stilo2 {
+    height: 1px;
+    background-color:#512F84;
+    width: 70%;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.Prec-Antes {
+     font-family: 'Futura Book';
+    font-size:.8em;
+    color: #512F84;
+}
+
+.Prec-Ahora {
+     font-family: 'Futura Book';
+    font-size:1.2em;
+    color: #512F84;
+    
+}
+
+.Prec-Ahora01 {
+    font-family: 'Futura Book';
+    font-size:3em;
+    color: #512F84;
+    letter-spacing: -8px;
+    margin-right: 10px;
+    
+}
+
+.Prec-Ahora02 {
+     font-family: 'Futura Book';
+    font-size:1.9em;
+    color: #512F84;
+    
+}
+
+.Prec-Ahora-Gb {
+     position: relative;
+    bottom: 30px
+    
+}
+
+.Prec-Ahora-Sup {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.Spacio-bco {
+    position: relative;
+    bottom: 30px
+}
+
+.Spacio-bco-Prec {
+    position: relative;
+    bottom: 30px;
+}
+
+.Prec-Al-Mes {
+    font-family: 'Futura Book';
+    font-size:3.8em;
+    color: #fff;
+    letter-spacing: -5px;
+  
+}
+
+.Prec-Al-Mes-signo {
+    font-size:.5em;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    font-weight: lighter;
+    
+}
+
+
+
+.Prec-Al-Mes-Text {
+    font-family: 'Futura Book';
+    font-size:1.2em;
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    
+}
+
+#app .Color-Price {
+    background-color: #512F84;
+    width: 95%
+
+}
+
+#Prices-space {
+   margin: 0 10px;
+    max-width: 100%;
+   
+}
+
+.Color-Capacity {
+    background-color: #BDD630;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    border: solid 2px #F7F8F8;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+}
+
+.Cap-Img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.Adem-Color {
+    
+    background-color: #512F84;
+    padding: 20px 10px 0 10px;
+    /*height: 30vh;*/
+    margin-bottom: 20px;
+}
+
+.Adem-title01 {
+    
+    font-family: 'Futura Book';
+    font-size:2em;
+    color: #BDD630;
+    text-align: center;
+    position: relative;
+    right: 150px;
+    
+}
+
+.Adem-title02 {
+    font-family: 'Futura Book';
+    font-size:2em;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.Adem-title03 {
+    font-family: 'Futura Book';
+    font-size:3em;
+    color: #BDD630;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    
+}
+
+
+.Adem-title04 {
+    font-family: 'Futura Book';
+    font-size:2.5em;
+     color: #fff;
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+    
+}
+
+
+
+.Ofert-Susc {
+     font-size: 2.5em;
+    text-align: center;
+    color: #512F84;
+    font-weight: bolder;
+    font-family: 'Frutiger Bold';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.Ofert-Susc01 {
+     font-size: 2em;
+    text-align: center;
+    color: #512F84;
+    font-weight: bolder;
+    font-family: 'Frutiger Bold';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
+    
+}
+
+
+
+.Ofert-Title {
+    background-color: #512F84;
+    width: 70%;
+}
+
+
+.Ofert-Title-Text {
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Frutiger Bold';
+    padding: 5px 0;
+}
+
+
+
+.Ofert-Legal {
+    font-family: sans-serif;
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+
+.Ofert-Title-Price {
+    font-family: 'Futura Book';
+    color: #009539;
+    font-size:2.5em;
+    text-align: center;
+}
+
+.sig-pesos{
+    font-family: 'Futura Book';
+    color: #009539;
+    font-size:.5em;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+.Ofert-Title-Suscrip {
+     font-family: 'Futura Book';
+    color: #512F84;
+    font-size:1em;
+    text-align: center;
+    
+}
+
+
+.Ofert-Title-Oneplace {
+     font-family: 'Futura Book';
+    color: #212528;
+    font-size:.8em;
+    text-align: center;
+    
+}
+
+
+.Ofert-Title-Nosotros {
+     font-family: 'Futura Book';
+     color: #512F84;
+    font-size:1em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.Ofert-Title-Nosotros01 {
+     font-family: 'Futura Book';
+     color: #512F84;
+    font-size:1.3em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.Ofert-Img {
+    width: 70%;
+    height: auto;
+}
+
+.Bordo {
+    border: solid 1px #512F84;
+}
+
+
+
+.Boton {
+     font-family: 'Frutiger Bold';
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+   
+    
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #512F84;
+  border-color: #512F84;
+}
+
+.btn-primary:hover {
+  color: #512F84;
+  background-color: #BDD630;
+  border-color: #512F84;
+}
+
+
+.Sat-Legal {
+    font-family: sans-serif;
+    color: #62259d;
+    font-size: 1.3rem;
+    
+}
+
+.Sat-Legal01 {
+    font-family: sans-serif;
+     color: #adb5bd;
+    font-size:1em;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+/*inician media queries*/
+
+@media only screen and (max-width:73.125em) and (min-width:48em) { 
+	  .Megas-Cap {
+    font-weight: 500;
+    font-size:2.5em;
+    }
+    
+    .Megas-Text {
+    font-size:1em;
+    position: relative;
+    bottom: 25px;
+    
+}
+    
+	.Prec-Al-Mes {
+    font-size:2.0em;
+    }
+    
+    .Prec-Al-Mes-Text {
+    font-size:1em;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.Sup-indice {
+    font-size: .5em;
+    font-weight: lighter;
+}
+    .Adem-title03 {
+    font-size:2em;
+    }
+
+.Adem-title04 {
+    font-size:1.5em;
+}
+
+}
+
+@media only screen and (max-width:26.5625em) { 
+	#OnSat-Title {
+    font-size: 1.8em;
+
+}
+    #OnSat-SubTitle {
+    font-size: 1.5em;
+}
+    #OnSat-SubTitle01 {
+     font-size: 1em;
+   
+}
+    .Adem-Color {
+    height: 8vh;
+}
+    
+    .Adem-title01 {
+    font-size:1.2em;
+        right: 100px
+}
+    
+    .Adem-title02 {
+    font-size:1.2em;
+}
+    .Adem-title03 {
+    font-size:1.3em;
+    }
+
+.Adem-title04 {
+    font-size:.9em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

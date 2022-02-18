@@ -1,0 +1,207 @@
+#packs {
+    color: $primary;
+    .pack-font-m {
+        font-size: 1.8rem;        
+    }
+}
+.coloron_1{
+    color: #626466;
+}
+.coloron_2{
+    color:#62259d;
+}
+
+.ColorFondo{
+    background-color: aqua;
+}
+
+.espacio-blanco{
+    width: 10px;
+    height: 5px;
+   
+}
+
+.hasta{
+    text-align: left;
+}
+
+.capacidad{
+    margin: 5px 0;
+    font-size: 1.09rem;
+}
+
+.BotonContacto{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+.TitleOne{
+    font-size: 54px;
+}
+
+.TitleOneA{
+    font-size: 40px;
+    font-family: "Frutiger Bold";
+}
+
+.TitleTwo{
+     font-size: 52px;
+    font-family: "Frutiger Bold";
+}
+
+.TitleThree{
+     font-size: 52px;
+}
+
+.ParrafoOne{
+     font-size: 24px;
+    font-family: "Frutiger Bold";
+    
+}
+
+.ParrafoTwo{
+      font-size: 22px;
+    
+}
+
+.ParrafoTwoA{
+     font-size: 22px;
+    color: #BDD630;
+}
+
+.ParrafoTwoB{
+     font-family: "Frutiger Bold";
+    
+}
+.ParrafoThree{
+     font-size: 18px;
+    
+}
+
+
+.EspacioBlanco{
+    margin-top: 5%;
+}
+
+.SubIndice{
+    font-size: 10px;
+    vertical-align:top;
+    margin-top: 5%;
+    float: left;
+  
+}
+
+.Megas{
+    font-size: 3em;
+}
+
+.box-paq{
+    		border: 3px solid #BDD630;
+    	}
+    	.paq-on{
+    		background: #BDD630;
+    		padding: 5px;
+    		text-align: center;
+            margin: -1px;
+    	}
+
+        .paq-on-Antes{
+            font-size: 14px;
+        }
+         .paq-on-Ahora{
+            font-size: 24px;
+        }
+
+
+    	.paq-on-izq{
+    		background: #512F84;
+    		border-right: 3px solid #96C942;
+    		color: #fff;
+    		padding: 10px 3px;
+    		margin-top: 1%; 
+    		text-align: center;
+            color:#AE8CC1;
+            height: 123px;
+            
+    	}
+    	.paq-on-der{
+    		background: #512F84;
+    		color: #FFF;
+    		padding: 10px;
+    		text-align: center;
+            color:#96C942;
+            margin: -1px;
+            height: 123px;
+    	}
+    	.paq-on-costo{
+    		background: #512F84;
+    		border-top: 3px solid #BDD630;
+    		color: #fff;
+    		padding: 10px;
+    		text-align: center;
+    	}
+    	.box-paq-on1{
+    		width: 40%;
+            padding-top: 8px;
+            background-color: #BDD630;
+    	}
+    	.box-paq-on2{
+    		width: 60%;
+    	}
+    	.paq-on-boton{
+    		background: #BDD630;
+    		color: #FFF;
+    		margin: 0.5em;
+    		text-align: center;
+    		padding: 5px;
+    	}
+    	.paq-on-megas1{
+    		font-size: 3em;
+    	}
+    	.paq-on-megas2{
+    		font-size: 4em;
+    	}
+    	.paq-on-precio{
+    		font-size: 4em;
+    	}
+    	.paq-on-a{
+    		color: #612B9B;
+            font-size: 1.5em;
+            text-align: center;
+    	}
+    
+/*inician media queries*/
+
+@media only screen and (max-width:73.125em) and (min-width:48em) { 
+	.TitleOne {
+    font-size: 40px;
+}
+   .TitleOneA {
+    font-size: 30px;
+    
+}
+  .TitleTwo {
+    font-size: 40px;
+   
+}
+    
+}
+
+@media only screen and (max-width:26.5625em) { 
+  .TitleOne {
+    font-size: 30px;
+}
+  .TitleOneA {
+    font-size: 30px;
+    
+}
+    .TitleTwo {
+    font-size: 40px;
+   
+}
+	
+}
+
+
+

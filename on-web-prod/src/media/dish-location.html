@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba de localización de DISH</title>
+</head>
+<body>
+	<button title="Toca para geolocalizar" onclick="geoLocalizar()">Toca para geolocalizar</button><br/>
+	<label for="localizacion"></label><input readonly="readonly" type="text" name="localizacion" id="localizacion"><br/>
+	<a id="enlace" href="#" target="blank"></a>
+
+	<script type="text/javascript">
+		function geoLocalizar() {
+			document.getElementById("enlace").text = "";
+
+			if(navigator.geolocation) {
+               var options = {timeout:60000};
+               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+            } else {
+               alert("Sorry, browser does not support geolocation!");
+            }
+		}
+
+		function showLocation(position) {
+            let latitude = position.coords.latitude;
+            let longitude = position.coords.longitude;
+			let localizacion = latitude + "," + longitude;
+
+			document.getElementById("localizacion").value = localizacion;
+			document.getElementById("enlace").href = "https://www.google.com.mx/maps/search/" + localizacion
+			document.getElementById("enlace").text = "Buscar localización";
+         }
+ 
+         function errorHandler(err) {
+            if(err.code == 1) {
+               alert("Error: Access is denied!");
+            } else if( err.code == 2) {
+               alert("Error: Position is unavailable!");
+            }
+         }
+	</script>
+</body>
+</html>

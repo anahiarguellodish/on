@@ -1,0 +1,53 @@
+/*Inician fuente futura*/
+@font-face {
+    font-family: Futura Md BT;
+    src:  url(../media/fonts/fonts/futura_medium/FuturaBT-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Futura Bk BT;
+    src:  url(../media/fonts/fonts/futura_book/FuturaBT-Book.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Inician fuente frutiger*/
+@font-face {
+    font-family: Frutiger LT Std;
+    src: url(../media/fonts/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.EtiAcces {
+    font-size: .9em;
+     color: #626466;
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

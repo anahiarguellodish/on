@@ -1,0 +1,47 @@
+{
+  "name": "dishon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.2",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.3.1",
+    "node-sass-chokidar": "^1.3.4",
+    "npm-run-all": "^4.1.5",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-google-recaptcha": "^1.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5"
+  },
+  "scripts": {
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "start-js": "react-scripts start",
+    "build-js": "react-scripts build",
+    "aws-clean": "aws s3 rm s3://oninternet-dev --recursive",
+    "aws-sync": "aws s3 sync build/ s3://oninternet-dev",
+    "aws-clean_": "aws s3 rm s3://dishon-react-bucket --recursive",
+    "aws-sync_": "aws s3 sync build/ s3://dishon-react-bucket",
+    "aws-push": "npm-run-all -s aws-clean aws-sync",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm-run-all -p build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/on-web"
+  },
+  "author": "",
+  "license": "ISC"
+}
+

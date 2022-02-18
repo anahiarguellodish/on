@@ -1,0 +1,51 @@
+#footer {
+    .mobile {
+        display: block;
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+    .menu-2 {
+        display: none;
+        @include media-breakpoint-up(md) {
+            display: block;
+        }
+    }
+
+    .mobile {
+        background: $gray-900;
+        font-size: 1.2rem;
+        .fas {
+            font-size: 1.5rem;
+            color: $gray-400;
+            cursor: pointer;
+        }
+    }
+    .menu-1, .menu-2 {
+        .row > div {
+            &:last-child {
+                border: 0;
+            }
+            border-right: 0;
+            @include media-breakpoint-up(md) {
+                border-right: 1px solid $light;
+            }
+            a, small {
+                text-transform: uppercase;
+            }
+        }
+    }
+    .menu-1 {
+        background: $primary;
+        a, small { color: $light; }
+    }
+    .menu-2 {
+        background: $gray-900;
+        .row > div {
+            @include media-breakpoint-up(md) {
+                border-right: 1px solid $secondary;
+            }
+            a, small { color: $secondary; }
+        }
+    }
+}

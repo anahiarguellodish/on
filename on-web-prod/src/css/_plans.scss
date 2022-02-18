@@ -1,0 +1,54 @@
+#plans {
+    .plan {
+        h1, .h1 { font-family: $font4 }
+        h2, .h2 { font-family: $font2 }
+        .font-xxl { font-size: 5rem;}
+        .font-xl { font-size: 2.5rem; }
+        @include media-breakpoint-up(md) {
+            .font-xxl { font-size: 6rem; }
+            .font-xl { font-size: 3rem; }
+        }
+    }
+    .megas {
+        border: 0;
+        border-right: 3px solid $primary;
+        @include media-breakpoint-up(lg) {
+            border: 0;
+            border-bottom: 3px solid $primary;
+        }
+    }
+    .price {
+        @include media-breakpoint-up(lg) {
+            margin-top: 1.3rem;
+        }
+    }
+    .plan {
+        & > div { border: 5px solid; }
+    }
+    #disc {
+        color: $gray-500;
+    }
+    .options {
+        position: relative;
+        @include media-breakpoint-up(md) {
+            small {
+                display: block;
+                position: absolute;
+                right: 7%; bottom: 10%;
+            }
+        }
+    }
+    .special {
+        border-top: 5px solid $primary;
+        // background: $light2;
+        a:hover {
+            text-decoration: none;
+        }
+        .promos {
+            max-width: 800px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

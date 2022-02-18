@@ -1,0 +1,264 @@
+.form-wrapper-outer {
+    padding: 40px;
+    border-radius: 8px;
+    margin: auto;
+    width: 460px;
+    margin-top: 7%;
+}
+
+.form-button {
+    text-align: right;
+}
+
+.field-wrapper {
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.field-wrapper input {
+    border: 1px solid #62259d;
+    padding: 15px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.field-wrapper .field-placeholder {
+    font-size: 16px;
+    position: absolute;
+    bottom: 17px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #62259d;
+    left: 8px;
+    padding: 0 8px;
+    -webkit-transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+}
+
+.field-wrapper input:focus {
+    color: #00953a;
+    border: 2px solid #00953a;
+    outline: none;
+}
+
+.field-wrapper .field-placeholder span {
+    background: #ffffff;
+    padding: 0px 8px;
+}
+
+.field-wrapper input:not([disabled]):focus~.field-placeholder {
+    color: #00953a;
+}
+
+.field-wrapper input:not([disabled]):focus~.field-placeholder,
+.field-wrapper.hasValue input:not([disabled])~.field-placeholder {
+    -webkit-transform: scale(.75) translateY(-39px) translateX(-85px);
+    transform: scale(.75) translateY(-39px) translateX(-85px);
+}
+
+.btn-send{
+    background-color: #62259d;
+    height: 50px;
+    border: 1px solid #62259d;
+}
+
+.btn-send:hover{
+    background-color: #00953a;
+    height: 50px;
+    border: 1px solid #00953a;
+}
+
+
+
+/*Modal*/
+
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal {
+    z-index: 1072;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+
+.modal-dialog-right-side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 !important;
+}
+
+.modal-content-right-side{
+    border: none !important;
+    border-radius: 0px;
+}
+
+.modal-header-right-side {
+    border-bottom: none !important;
+}
+
+
+.modal-footer-right-side{
+    border-top: none !important;
+    padding: 0rem 1rem 1rem 1rem !important;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(73, 44, 124, 1) 100%) 0% 0% no-repeat padding-box;
+}
+
+.modal-title{
+    font-family: 'Frutiger LT Std';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(83, 48, 133, 1);
+
+}
+
+.modal-subtitle{
+    font-family: 'Futura Md BT';
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgba(80, 83, 81, 0.7);
+    margin-bottom: 30px;
+    margin-top: 5px;
+
+}
+
+.modal-content{
+    padding: 50px 30px;
+}
+
+.modal-header, .modal-body{
+    padding: 0px;
+}
+
+
+label {
+  cursor: pointer;
+}
+label input[type="checkbox"] {
+  display: none;
+}
+
+label input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
+
+label input[type="checkbox"] + .label-text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgba(83, 48, 133, 1);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+label input[type="checkbox"] + .label-text:before {
+  content: "\f096"; /* Equivalent to fa-square-o */
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  width: 1em;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+/* Checked style */
+label input[type="checkbox"]:checked + .label-text:before {
+  content: "\f14a"; /* equivalent to fa-check-square */ 
+  color: rgba(83, 48, 133, 1); /* set color */
+  -webkit-animation: tick 150ms ease-in;
+  animation: tick 150ms ease-in;
+  font-size: 20px;
+}
+
+/* disabled checkbox */
+label input[type="checkbox"]:disabled + .label-text {
+  color: #aaaaaa;
+}
+
+label input[type="checkbox"]:disabled + .label-text:before {
+  content: "\f0c8"; /* equivalent to fa-square */
+  color: #666666;
+}
+
+label a{
+    font-family: 'Frutiger LT Std';
+    color: rgba(83, 48, 133, 1);
+}
+
+.modal-lg, .modal-xl {
+    max-width: 800px;
+}
+
+.modal-header-info{
+    display: flex;
+    justify-content: center;
+}
+
+.zona{
+    font-family: 'Futura Md BT';
+    color: rgba(112, 112, 112, 1);
+    font-size: 20px;
+}
+
+.zona span{
+    font-family: 'Frutiger LT Std';
+    color: rgba(83, 48, 133, 1);
+}
+
+.recibo{
+    width: 100%;
+    height: auto;
+}
+
+.btn-question{
+    background-color: transparent;
+    border: none;
+    margin: 6px 0px 12px 0px;
+    cursor: pointer;
+    font-family: 'Frutiger LT Std'
+    font-size: 12px;
+    color: rgba(80, 83, 81, 1);
+}
+
+.field-wrapper:first-child{
+    margin-bottom: 0px;
+}

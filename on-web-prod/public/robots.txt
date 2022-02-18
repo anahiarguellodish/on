@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /%23/places-of-payment

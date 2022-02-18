@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('FuturaBT-Heavy.eot');
+    src: url('FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Heavy.woff2') format('woff2'),
+        url('FuturaBT-Heavy.woff') format('woff'),
+        url('FuturaBT-Heavy.ttf') format('truetype'),
+        url('FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

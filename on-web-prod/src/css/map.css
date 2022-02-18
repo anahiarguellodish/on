@@ -1,0 +1,48 @@
+.cabezal {
+    background: #622b9a;
+    color: #FFF;
+}
+.on{
+border: #622b9a solid 1px;
+}
+.sub-title{
+  color: #14943E;
+}
+th, td{
+  text-align: center;
+}
+tr,.numero{
+  color:  #622b9a;
+}
+th{
+  color: #FFF;
+}
+
+.Color-Price {
+  background-color: #512F84;
+  width: 95%
+
+}
+
+
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /*font-size: 15px;*/
+  transition: 0.4s;
+}
+
+
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  font-size: 15px;
+}

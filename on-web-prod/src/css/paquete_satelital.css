@@ -1,0 +1,8815 @@
+/*Inician fuente futura*/
+@font-face {
+    font-family: Futura Md BT;
+    src:  url(../media/fonts/fonts/futura_medium/FuturaBT-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Futura Bk BT;
+    src:  url(../media/fonts/fonts/futura_book/FuturaBT-Book.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Inician fuente frutiger*/
+@font-face {
+    font-family: Frutiger LT Std;
+    src: url(../media/fonts/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger Bold';
+  src: url(../media/fonts/frutiger_bold.otf); }
+
+
+#OnSatImg {
+    width: 80px;
+    height: auto;
+   margin-top: -3%;
+}
+
+.OnSat-Title {
+    font-size: 3.8em;
+     color: #626466;
+    display: inline-block;
+    font-family: 'Futura Bk BT';
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 10px;
+    line-height: 60px;
+    
+}
+
+#OnSat-Title01 {
+    font-size: 1.0em;
+     color: #626466;
+    font-family: 'Futura Md BT';
+    font-weight:bold;
+    font-style: normal;
+    margin-bottom: 0px;
+    
+}
+
+#OnSat-SubTitle {
+    font-size: 1.47em;
+    text-align: center;
+    color: #626466;
+    font-weight: bolder;
+    font-family: 'Frutiger LT Std';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#hr-stilo {
+ height: 1px;
+  background-color:#96C942;
+   width: 70%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+#OnSat-SubTitle01 {
+     font-size: 1.2em;
+    text-align: center;
+    color: #626466;
+    font-weight: bolder;
+    font-family: 'Frutiger LT Std';
+    font-weight: 900;
+    font-style: normal;
+    margin: 0px;
+    line-height: normal;
+    
+}
+
+.Sup-Hasta {
+    font-size: .7em;
+    color: #fff;
+    font-family: 'Futura Md BT';
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    top: 16px;
+    
+    
+}
+
+.Megas-Cap {
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size:3.5em;
+    color: #96C942;
+    font-style: normal;
+   
+    
+}
+
+.Megas-Text {
+     font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size:1.5em;
+    color: #96C942;
+    font-style: normal;
+    position: relative;
+   bottom: 35px;
+    
+}
+
+.Container {
+    padding: 0 15px;
+}
+
+.Title-Capacidad {
+     font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size:1em;
+    color: #512F84;
+    font-style: normal;
+}
+
+.Triangulo {
+    position: relative;
+    bottom: 15px;
+    display: inline-block;
+}
+
+.hr-stilo2 {
+    height: 1px;
+    background-color:#512F84;
+    width: 70%;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.Prec-Antes {
+     font-family: 'Futura Md BT';
+    font-size:.8em;
+    color: #512F84;
+}
+
+.Prec-Ahora {
+     font-family: 'Futura Md BT';
+    font-size:1.2em;
+    color: #512F84;
+    
+}
+
+.Prec-Ahora01 {
+    font-family: 'Futura Md BT';
+    font-size:3em;
+    color: #512F84;
+    letter-spacing: -8px;
+    margin-right: 10px;
+    
+}
+
+.Prec-Ahora02 {
+     font-family: 'Futura Md BT';
+    font-size:1.9em;
+    color: #512F84;
+    
+}
+
+.Prec-Ahora-Gb {
+     position: relative;
+    bottom: 30px
+    
+}
+
+.Prec-Ahora-Sup {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.Spacio-bco {
+    position: relative;
+    bottom: 30px
+}
+
+.Spacio-bco-Prec {
+    position: relative;
+    bottom: 30px;
+    padding-top: 5%;
+}
+
+.Prec-Al-Mes {
+    font-family: 'Futura Md BT';
+    font-size:3.0em;
+    color: #fff;
+    letter-spacing: -2px;
+  
+}
+
+.Prec-Al-Mes-signo {
+    font-size:.5em;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    font-weight: lighter;
+    
+}
+
+
+
+.Prec-Al-Mes-Text {
+    font-family: 'Futura Md BT';
+    font-size:2em;
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+    line-height: 2em;
+    
+}
+
+.Color-Price {
+    background-color: #512F84;
+    width: 95%
+
+}
+
+#Prices-space {
+    margin: 0 10px;
+}
+
+.Color-Capacity {
+    background-color: #BDD630;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    border: solid 2px #F7F8F8;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+}
+
+.Alamb-Color-Capacity {
+    background-color: #BDD630;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    border: solid 2px #F7F8F8;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+box-shadow: 0px 0px 5px 0px rgba(158,158,158,1);
+    padding-bottom: 5%;
+}
+
+.Cap-Img {
+    width: 100%;
+    height: auto;
+     padding: 0 10%;
+}
+
+.Ahora-Img {
+    width: 100%;
+    height: auto;
+     padding: 0 1%;
+}
+
+.Vel-Img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 50px 0;
+    padding: 0 10%;
+    
+}
+
+.Antes-Img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 50px 0;
+    padding: 0 1%;
+    
+}
+
+.Adem-Color {
+    
+    background-color: #512F84;
+    padding: 20px 0 0 0;
+    height: 25vh;
+}
+
+.Adem-title01 {
+    
+    font-family: 'Futura Md BT';
+    font-size:2em;
+    color: #BDD630;
+    text-align: center;
+    position: relative;
+    right: 150px;
+    
+}
+
+.Adem-title02 {
+    font-family: 'Futura Md BT';
+    font-size:2em;
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.Adem-title03 {
+    font-family: 'Futura Md BT';
+    font-size:3em;
+    color: #BDD630;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    
+}
+
+
+.Adem-title04 {
+    font-family: 'Futura Md BT';
+    font-size:2em;
+     color: #fff;
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+    
+}
+
+
+
+.Ofert-Susc {
+     font-size: 2.5em;
+    text-align: center;
+    color: #512F84;
+    font-weight: bolder;
+    font-family: 'Frutiger LT Std';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+
+.Ofert-Susc-Datos {
+    font-family: 'Futura Md BT';
+    text-align: center;
+    font-weight: lighter;
+     color: #512F84;
+    font-size: .9em;
+    
+}
+
+.Ofert-Susc01 {
+     font-size: 2em;
+    text-align: center;
+    color: #646769;
+    font-weight: bolder;
+    font-family: 'Frutiger LT Std';
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0px;
+    
+}
+
+
+
+.Ofert-Title {
+    background-color: #512F84;
+    width: 70%;
+}
+
+
+.Ofert-Title-Text {
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Frutiger LT Std';
+    padding: 2% 0;
+}
+
+
+
+.Ofert-Legal {
+    font-family: sans-serif;
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+    
+}
+
+
+
+.Ofert-Title-Price {
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size:2.5em;
+    text-align: center;
+}
+
+.Ofert-Title-Suscrip {
+     font-family: 'Futura Md BT';
+    color: #626466;
+    font-size:1em;
+    text-align: center;
+    
+}
+
+
+.Ofert-Title-Oneplace {
+     font-family: 'Futura Md BT';
+    color: #212528;
+    font-size:.8em;
+    text-align: center;
+    
+}
+
+
+.Ofert-Title-Nosotros {
+     font-family: 'Futura Md BT';
+     color: #512F84;
+    font-size:1em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.Ofert-Title-Nosotros01 {
+     font-family: 'Futura Md BT';
+     color: #626466;
+    font-size:1em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.Ofert-Img {
+    width: 70%;
+    height: auto;
+}
+
+.Bordo {
+   margin-bottom: 1em;
+}
+
+
+
+.Boton {
+     font-family: 'Frutiger LT Std';
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #512F84;
+  border-color: #512F84;
+}
+
+.btn-primary:hover {
+  color: #512F84;
+  background-color: #BDD630;
+  border-color: #512F84;
+}
+
+
+
+.Boton-Alamb {
+     font-family: 'Futura Md BT';
+    font-size: 1.1em;
+    text-align: center;
+    color: #512F84;
+   
+    
+}
+
+.btn-primary-Alamb {
+    background-color: #fff;
+  border-color: #512F84;
+}
+
+.btn-primary-Alamb:hover {
+    background-color: #BDD530;
+  border-color: #BDD530;
+}
+
+
+#Btn-Contrata-Alamb{
+    padding-bottom: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+.Sat-Legal {
+    font-family: sans-serif;
+     color: #000;
+    font-size:1.2em;
+    text-align: center;
+    
+}
+
+.Sat-Legal-morado{
+     color: #512F84;
+    
+}
+
+.Sat-Legal01 {
+    font-family: sans-serif;
+     color: #212528;
+    font-size:.8em;
+    text-align: center;
+}
+/*----------------Act 4-jul-2019------------------*/
+.on-contenedor-tiempo{
+    background: #BDD630;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.on-texto-tiempo{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1%;
+}
+
+.on-texto-tiempo-Ademas{
+    font-family: 'Futura Bk BT';
+    color: #512F84;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 15px;
+}
+
+.on-texto-tiempo-Ademas-Title{
+    font-family: 'Futura Bk BT';
+    color: #BDD630;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.on-texto-tiempo-Ademas-Title-Back{
+     background: #512F84;
+   
+}
+
+.on-texto-tiempo-Ademas-Nota{
+    font-family: 'Futura Bk BT';
+    color: #512F84;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 20px;
+    padding:0 10%;
+    
+}
+.on-tercerMes-texto{
+    font-family: 'Frutiger LT Std';
+    color: #66696b;
+    font-size: 1.5em;
+    text-align:center;
+    position: relative;
+    bottom: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+.on-box-gigas{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.cap-total-10gb{
+    background: #BDD630;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    
+}
+.cap-total-20gb{
+    background: #BDD630;
+    padding: 15px;
+      width: 100%;
+    height: auto;
+}
+.cap-total-30gb{
+    background: #BDD630;
+    padding: 15px;
+      width: 100%;
+    height: auto;
+}
+.cap-total-50gb{
+    background: #BDD630;
+    padding: 15px;
+      width: 100%;
+    height: auto;
+}
+.close-contrata{
+    padding: 1rem;
+    font-size: 25px;
+    color: black;
+    margin: 3rem -1rem -1rem auto !important;
+    background-color: white !important;
+}
+.close-popup {
+    opacity: 1;
+}
+.close-popup:not(:disabled):not(.disabled):hover{
+    color: #000;
+    text-decoration: none;
+    opacity: 1;
+}
+.strikethrough {
+    position: relative;
+}
+ 
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 30%;
+    right: 0;
+    border-top: 5px solid;
+    border-color: #512F84;
+     
+    -webkit-transform:rotate(-8deg);
+    -moz-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+
+
+
+
+#Pqt-empresarial-text {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    top: 10px;
+}
+
+#Pqt-empresarial {
+    position: relative;
+    bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #512F84;
+    border-left: 1px solid #512F84;
+    border-right: 1px solid #512F84;
+}
+
+
+
+/*inician media queries*/
+
+@media only screen and (max-width:73.125em) and (min-width:48em) { 
+
+      .Megas-Cap {
+    font-weight: 500;
+    font-size:2.5em;
+    }
+    
+    .Megas-Text {
+    font-size:1em;
+    position: relative;
+    bottom: 25px;
+    
+}
+    
+    .Prec-Al-Mes {
+    font-size:2.0em;
+    }
+    
+    .Prec-Al-Mes-Text {
+    font-size:1em;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.Sup-indice {
+    font-size: .5em;
+    font-weight: lighter;
+}
+    .Adem-title03 {
+    font-size:2em;
+    }
+
+.Adem-title04 {
+    font-size:1.5em;
+}
+
+.Boton-Alamb {
+        font-size: .6em; 
+    }
+    
+    
+}
+
+@media only screen and (max-width:26.5625em) { 
+
+.bannericon{
+        background: url(../media/movil.png )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+    }
+    .bannericon_1{
+            background: url(../media/ON_Pauta-Inalambrico_Slider-Mobile.jpg)no-repeat center;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            margin: 0em 4em !important;
+    }
+    .bannericon_2{
+            background: url(../media/movil2.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+    .bannericon_3{
+            background: url(../media/movil3.png )no-repeat center !important;
+            background-size: auto;
+            background-size: contain !important;
+            height: 580px !important;
+            
+    }
+    .bannericon_4{
+            background: url(../media/movil4.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            
+    }
+
+    .banner_desktop{
+        background: url(../media/banner_desktop.jpeg )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+        
+
+    }
+
+
+    .OnSat-Title {
+    font-size: 1.8em;
+    line-height: 1em;
+
+}
+    .OnSat-SubTitle {
+    font-size: 1.5em;
+}
+    .OnSat-SubTitle01 {
+     font-size: 1em;
+   
+}
+    .Adem-Color {
+    height: 20vh;
+}
+    
+    .Adem-title01 {
+    font-size:1.2em;
+        right: 100px
+}
+    
+    .Adem-title02 {
+    font-size:1.2em;
+}
+    .Adem-title03 {
+    font-size:1.3em;
+    }
+
+.Adem-title04 {
+    font-size:1em;
+}
+    .on-texto-tiempo-Ademas {
+   
+    font-size: 1.2rem;
+    line-height: 1.5em;
+   
+}
+    .on-texto-tiempo {
+    font-size: 1.8rem;
+    
+}
+    .on-tercerMes-texto {
+   
+    font-size: 1.2em;
+    margin: 10% auto;
+}
+    .Boton-Alamb {
+        font-size: 1.6em; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs-container{
+    font-family: 'Futura Md BT';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.suscribe-2000{
+    background-color: #008542;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.suscribe-active{
+    background-color: #512F84 !important;
+}
+
+.suscribe-inactive{
+    background-color: #009545 !important;
+}
+
+.suscribe-600{
+    background-color: #512F84;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscribe-2000:hover{
+    background-color: #512F84;
+
+}
+
+.suscribe-600:hover{
+    background-color: #512F84;
+}
+
+.suscribe-text{
+    font-family: 'Frutiger LT Std';
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.suscribe-texti{
+    font-family: 'Frutiger LT Std';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h2.text-1st{
+    font-family: 'Frutiger Bold';
+    font-weight: bold;
+    color: #4E5154;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+    margin: 40px 0px 0px 0px;
+}
+
+.text-2nd{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 0px;
+    vertical-align: text-top;
+    line-height: 1;
+}
+
+.text-2nd_alt{
+    font-family: 'Futura Md BT';
+    font-size: 4.0rem;
+}
+
+.text-2nd__alt{
+    font-family: 'Frutiger Bold';
+    font-size: 5.3rem;
+}
+
+.text-3rd{
+    font-family: 'Frutiger LT Std';
+    color: #512F84;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin: 0px 0px 45px 0px;
+}
+
+.text-4th{
+    font-family: 'Futura Md BT';
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1;
+    margin: 0px 0px 5px 0px;
+}
+
+.suscribe-2000-container{
+    padding: 0px 25px;
+}
+
+.suscribe-600-container{
+    padding: 0px 25px;
+}
+
+.blue-container{
+    width: 100%;
+    background-color: #512F84;
+    padding: 10px 15px 25px 15px;
+    margin-bottom: 15px;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hasta-text{
+    font-family: 'Futura Md BT';
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.hasta-text-alt {
+    font-family: 'Futura Md BT';
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    /*padding-left: 74px;*/
+    margin-top: 10px;
+}
+
+.capacidad-text{
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+    line-height: 1;
+}
+
+.megas-text{
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    font-size: 40px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+
+.velocidad-text{
+    font-family: 'Futura Hv BT';
+    color: #95C841;
+    font-size: 12px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+
+.velocidad-text span{
+    font-family: 'Futura Md BT';
+}
+
+.yellow-container{
+    background-color: #BDD530;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+
+.yellow-container:after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(189, 213, 48, 1);
+    top: 235px;
+    left: 46%;
+}
+
+.capacidad-text-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 26px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #96c942;
+    margin-top: 5px;
+}
+
+.divider-alt{
+    height: 2px;
+    width: 100%;
+    background-color: #95C841;
+    margin-top: 5px;
+}
+
+.gigas-text{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 86px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+
+.gigas-text span{
+    font-size: 45px; 
+    text-transform: uppercase;
+}
+
+.caracteristicas-text{
+    color: #62259d;
+    font-size: 12px; 
+    margin: 10px 0px 5px 0px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.precio-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.money-text{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0px !important;
+}
+
+.money-text{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0px !important;
+}
+
+.precio-text{
+    font-family: 'Futura Md BT';
+    font-size: 100px;
+    color: #ffffff;
+    margin: 0px !important;
+    line-height: 1;
+}
+
+.month-text{
+    font-family: 'Futura Md BT';
+    font-size: 44px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+
+.btn-contratar{
+    width: 100%;
+    font-family: 'Futura Md BT';
+    font-size: 26px;
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+.btn-contratar:hover{
+    background-color: #BDD530;
+    color: #512F84;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+}
+
+.importante-title{
+    font-family: 'Frutiger Bold';
+    font-size: 28px;
+    color: #646769;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;   
+}
+
+.warning-container{
+    border: solid 1px #707070;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.warning-text{
+    font-family: 'Futura Md BT';
+    font-size: 14px;
+    color: #212528;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;   
+}
+
+.number{
+    position: absolute;
+    width: 24px;
+    text-align: center;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #707070;
+    color: #ffffff;
+    left: -12px;
+    top: 30%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legals{
+    font-size: 14px;
+    color: #212528;
+    opacity: 0.7;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+   margin: 0 auto;
+    display: inline-block;
+}
+
+
+
+@media only screen and (min-width:20em) and (max-width:25em) {
+       .bannericon{
+        background: url(../media/movil.png )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+    }
+    .bannericon_1{
+            background: url(../media/ON_Pauta-Inalambrico_Slider-Mobile.jpg )no-repeat center ;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            margin: 0.5% 3%!important;
+    }
+    .bannericon_2{
+            background: url(../media/movil2.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            margin: 1em 1em!important;
+    }
+    .bannericon_3{
+            background: url(../media/movil3.png )no-repeat center !important;
+            background-size: auto;
+            background-size: contain !important;
+            height: 580px !important;
+    }
+    .bannericon_4{
+            background: url(../media/movil4.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+
+    .banner_desktop{
+        background: url(../media/banner_movil_bf.jpeg )no-repeat center;
+        background-size: auto;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .levantar_texto{
+        left: 90px;
+    }
+
+    .suscribe-600-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-2000-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 10px !important;
+    }
+
+    .tabs-container{
+        display: block !important;
+    }
+
+    .suscribe-2000 {
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .suscribe-600 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .text-1st {
+        font-size: 30px !important;
+    }
+
+    .text-2nd {
+        font-size: 35px !important;
+    }
+
+    .text-2nd_alt {
+        font-size: 55px !important;
+    }
+
+    .text-2nd__alt {
+        font-size: 60px !important;
+    }
+
+    .text-3rd {
+        font-size: 14px !important;
+    }
+
+    .text-4th {
+        font-size: 18px !important;
+    }
+
+    .gigas-text {
+    font-size: 60px;
+    text-align: center;
+}
+    .warning-text {
+    font-family: 'Frutiger LT Std';
+    font-size: 1.1rem;
+}
+    
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+
+}
+
+
+
+@media screen and (min-width: 401px) and (max-width: 580px) {
+    .close-contrata{
+        margin: 2rem -11rem 6rem 78px !important;
+        background-color: white !important;
+    }
+    .bannericon{
+        background: url(../media/movil.png )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+    }
+    .bannericon_1{
+            background: url(../media/ON_Pauta-Inalambrico_Slider-Mobile.jpg)no-repeat center;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            margin: 1% 11%!important;
+    }
+    .bannericon_2{
+            background: url(../media/movil2.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+    .bannericon_3{
+            background: url(../media/movil3.png )no-repeat center !important;
+            background-size: auto;
+            background-size: contain !important;
+            height: 580px !important;
+    }
+    .bannericon_4{
+            background: url(../media/movil4.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+
+    .banner_desktop {
+            background: url(../media/banner_desktop.jpeg )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+            
+    }
+
+    
+
+    .levantar_texto{
+        left: 90px;
+    }
+
+
+    .suscribe-600-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-2000-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 40px !important;
+    }
+
+    .tabs-container{
+        display: block !important;
+    }
+
+    .suscribe-2000 {
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .suscribe-600 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .text-1st {
+        font-size: 30px !important;
+    }
+
+    .text-2nd {
+        font-size: 40px !important;
+    }
+
+    .text-2nd_alt {
+        font-size: 55px !important;
+    }
+
+    .text-2nd__alt {
+        font-size: 98px !important;
+    }
+
+    .text-3rd {
+        font-size: 14px !important;
+    }
+
+    .text-4th {
+        font-size: 18px !important;
+    }
+
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+    
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+
+    .bannericon{
+        background: url(../media/movil.png )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+    }
+    .bannericon_1{
+            background: url(../media/ON_Pauta-Inalambrico_Slider-Mobile.jpg )no-repeat center;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+    .bannericon_2{
+            background: url(../media/movil2.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+    .bannericon_3{
+            background: url(../media/movil3.png )no-repeat center !important;
+            background-size: auto;
+            background-size: contain !important;
+            height: 580px !important;
+    }
+    .bannericon_4{
+            background: url(../media/movil4.png )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+    .bannericon_5{
+            background: url(../media/movil5.jpg )no-repeat center !important;
+            background-size: auto;
+            background-size: 100%;
+            height: 580px !important;
+    }
+
+    .banner_desktop{
+        background: url(../media/banner_movil_bf.jpeg )no-repeat center !important;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+        
+    }
+
+    .levantar_texto{
+        left: 90px;
+    }
+
+
+    .warning-container{
+        height: 90px;
+    }
+    .suscribe-600-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-2000-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 10px !important;
+    }
+
+    .capacidad-text{
+        font-size: 90px !important;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .megas-text{
+        font-size: 30px !important;
+    }
+
+    .gigas-text{
+        font-size: 62px !important;
+    }
+
+    .gigas-text span{
+        font-size: 40px !important;
+    }
+
+    .money-text{
+        font-size: 30px !important; 
+    }
+
+    .precio-text{
+        font-size: 65px !important; 
+    }
+
+    .month-text{
+        font-size: 34px !important; 
+    }
+
+    .yellow-container:after {
+        top: 233px !important;
+    }
+
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+    
+   
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    
+
+  .break-text {
+    display: none;
+  }
+
+  .warning-container{
+    height: 85px;
+
+    }
+    .warning-text{
+    font-size: .9rem;
+   }
+}
+
+
+@media only screen and (min-width:75.0625em) and (max-width:90em) { 
+
+ 
+    .warning-text{
+    font-size: .9rem;
+   }
+}
+
+
+
+  #app small, #app .small {
+    font-size: 90%;
+    color: #fff; }
+
+.text-secondary {
+color: #707070 !important;
+}
+
+#app .tabs .tabs-btn {
+    border: 0;
+    font-family: "Futura Book";
+    background: #008542;
+    color: white;
+}
+
+.suscribe-2000 {
+    background-color: #008542;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /*font-size: 15px;*/
+  transition: 0.4s;
+}
+
+
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.carrusel-panel{
+    right: 190px !important;
+    position: relative;
+    width: 1000px !important;
+}
+
+.ponteon-gato{
+    position: relative;
+    left: 865px;
+    top: -50px;
+    font-size: 20px !important;
+}
+
+
+.iconoson{
+    width: 200px !important;
+    position: relative;
+    left: 90px;
+    top: -30px;
+}
+
+.tam_carrusel{
+    height: 180px;
+}
+
+.levantar_texto{
+    top: -10px;
+    position: relative;
+}
+
+
+.bannericon{
+
+    background: url(../media/Banner.png )no-repeat center;
+    background-size: auto;
+    background-size: 100%;
+    height: 400px;
+}
+/*.bannericon_1{
+    background: url(../media/ON_Pauta-Inalambrico_Slider-Desktop.jpg )no-repeat center !important;
+    background-size: auto !important;
+    background-size: 100% !important;
+    height: 400px;
+}*/
+.bannericon_2{
+
+    background: url(../media/Banner2.png )no-repeat center;
+    background-size: auto;
+    background-size: 100%;
+    height: 400px;
+}
+.bannericon_3{
+
+    background: url(../media/Banner3.png )no-repeat center;
+    background-size: auto;
+    background-size: contain !important;
+    height: 400px;
+}
+.bannericon_4{
+
+    background: url(../media/Banner4.png )no-repeat center;
+    background-size: auto;
+    background-size: 100%;
+    height: 400px;
+}
+
+.bannericon_5{
+
+    background: url(../media/Banner5.jpg )no-repeat center;
+    background-size: auto;
+    background-size: 100%;
+    height: 400px;
+}
+
+.banner_desktop {
+    background: url(../media/banner_desktop.jpeg )no-repeat center;
+    background-size: auto;
+    background-size: contain !important;
+    height: 400px;
+  
+}
+
+
+.titulo_verde{
+    background: green !important;
+}
+
+.blanco{
+    color:white !important;
+}
+ 
+#contacto_span, .contacto_span{
+    font-size: 1.1rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+.alinear_tecnologias{
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+
+
+
+#internet_legal, #inalambrico_legal, #alambrico_legal, #satelital_legal,#alambricotel_legal{
+    cursor: pointer;
+    font-style: bold;
+}
+
+
+
+
+.menutitulorecorrer{
+    left:50px;
+}
+
+
+.menusvginalambrico{
+    left: -48px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+
+.menusvginalambrico1{
+    left: 36px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+
+
+
+@font-face {
+  font-family: 'FrutigerLTStd-Black';
+  src: url(../media/fonts/FrutigerLTStd-Black.otf); 
+
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Roman';
+  src: url(../media/fonts/FrutigerLTStd-Roman.otf); 
+
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Bold';
+  src: url(../media/fonts/FrutigerLTStd-Bold.otf); 
+
+}
+
+.popup {
+    padding: 0%;
+}
+.popup img {
+    width: 20em;
+    vertical-align: middle;
+    z-index: 999;
+    padding-top: 0;
+    background: transparent;
+}
+
+.modal-body-popup {
+    background: transparent;
+    border: none;
+}
+
+.modal-content-popup {
+    padding: 0;
+    background:transparent;
+    border: none;
+}
+
+.modal-dialogbf {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+
+.modal-contentbf {
+background: #452C73;
+background: -webkit-linear-gradient(#452C73, #633D97);
+background: -o-linear-gradient(#452C73, #633D97);
+background: linear-gradient(#452C73, #633D97);
+    
+}
+
+
+.polizagarantia{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.adicionalcostotable{
+    width: 800px;
+}
+
+
+.modal-headerbf {
+   
+    border-bottom: 0px solid #eceeef;
+}
+
+.modal-header-popup {
+    opacity:1;
+}
+
+.closebf {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+   
+}
+
+
+.h1ModalBF{
+    font-family: 'FrutigerLTStd-Black';
+    font-size: 3.8em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.h1ModalBF02{
+    font-family: 'FrutigerLTStd-Black';
+    font-size: 3.8em;
+    
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.h2ModalBF{
+    font-family: 'FrutigerLTStd-Black';
+    font-size: 3.1em;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h3ModalBF{
+    font-family: 'FrutigerLTStd-Black';
+    font-size: 3.1em;
+    text-align: center;
+    color: #95C841;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h4ModalBF{
+    font-family: 'FrutigerLTStd-Roman';
+    font-size: 1.8em;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.pModalBF{
+    font-family: 'FrutigerLTStd-Black';
+    font-size: 1.3em;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+.ColoBco{
+    color: #fff;
+}
+
+
+.aModalBFCa{
+width: 100%;
+height: auto;
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 1px solid #452C73;
+background-color: #fff;
+padding: 1% 2%;
+font-family: 'FrutigerLTStd-Black';
+font-size: 2.0em;
+text-align: center;
+color: #60269E;
+
+}
+
+.aModalBFCa > a{
+color: #60269E;
+}
+
+.lModalBF{
+    font-family: 'FrutigerLTStd-Bold';
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.verde{
+    font-family: 'FrutigerLTStd-Black';
+    color: #95C841;
+    
+}
+
+.verde a{
+    
+    color: #95C841;
+    
+}
+
+.legalBuenFin{
+    font-family: sans-serif;
+    font-size: .9em;
+}
+
+.legalBuenFin a{
+    color: #212528;
+}
+
+/*Inician Media queries*/
+
+@media only screen and (max-width:23.4375em) and (min-width:20em) { 
+.h1ModalBF{
+    font-size: 2.0em;
+    text-align: center;
+    }
+    
+    .h2ModalBF{
+    font-size: 1.5em;
+    }
+    
+    .h3ModalBF{
+    font-size: 1.3em;
+    
+}
+    .h4ModalBF{
+    
+    font-size: 1.2em;
+    
+}
+    .pModalBF{
+    
+    font-size: .9em;
+}
+    
+    .aModalBFCa{
+    font-size: 1.0em;
+    text-align: center;
+    color: #60269E;
+    padding: 3%;
+
+}
+    .lModalBF{
+    font-size: .8em;
+        margin-top: 5%;
+    
+}
+}
+
+
+@media only screen and (max-width:26.5625em) and (min-width:23.5em) { 
+.h1ModalBF{
+    font-size: 2.5em;
+    text-align: center;
+    }
+    
+    .h2ModalBF{
+    font-size: 2.0em;
+    }
+    
+    .h3ModalBF{
+    font-size: 1.4em;
+    
+}
+    .h4ModalBF{
+    
+    font-size: 1.2em;
+    
+}
+    .pModalBF{
+    
+    font-size: 1.1em;
+}
+    
+    .aModalBFCa{
+    font-size: 1.5em;
+    text-align: center;
+    color: #60269E;
+
+}
+    .lModalBF{
+    font-size: 1.0em;
+    
+}
+    
+}
+
+
+
+
+@media only screen and (max-width:48em) and (min-width:26.625em) { 
+    
+    .h1ModalBF{
+    font-size: 3.0em;
+    }
+    
+    .h2ModalBF{
+    font-size: 2.5em;
+    }
+    
+    .h3ModalBF{
+    font-size: 2.2em;
+    
+}
+}
+
+
+
+.simpesos{
+   width: 9px;
+}
+
+.simpesosmorado{
+    width: 20px;
+    top: -10px;
+    position: relative;
+}
+
+
+.simpesos_1{
+  width: 20px;
+}
+
+.simpesosmorado_1{
+    width: 10px;
+    position: relative;
+}
+
+.kiosk_png{
+    width: 75px;
+}
+
+
+
+
+
+
+#col1{
+    margin-top: 4%
+}
+#Tex{
+    margin-top: 2%
+    
+}
+
+#bannerBack{
+    background-image: url(../media/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 923px;
+    background-size: cover;
+    border: 2px solid #62259d;
+    
+    
+}
+
+#bannerBack h3{
+    font-family:'FrutigerLTStd-Black';
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #62259d;
+}   
+
+#bannerBack h4{
+    font-family:'FrutigerLTStd-Black';
+    text-align: center;
+    font-size: 1.0em;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    color: #525151;
+    
+}   
+
+#flechasTexto h5{
+    font-family:'FrutigerLTStd-Black';
+    text-align: center;
+    font-size: .9em;
+    color: #525151;
+    
+    
+}   
+
+
+h5#consulSald{
+    margin-top: 6%;
+    
+}
+
+#bannerBack #flechasTexto p{
+    font-family:'FrutigerLTStd-Roman';
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 0px; 
+}   
+
+#Texto{
+    font-family: fantasy;
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 0px;
+    line-height: normal;
+    font-weight: lighter;
+    
+    
+}   
+
+#bannerBack p{
+    font-family:'FrutigerLTStd-Black';
+    text-align: center;
+    font-size: .85em;
+    margin-top: 3%;
+    color: #525151;
+}   
+
+ p .verde{
+    font-family:'FrutigerLTStd-Black';
+    text-align: center;
+    font-size: .85em;
+    margin-top: 3%;
+    color: #62259d;
+}   
+
+
+
+
+ul li img#Gp{
+    width: 140px;
+    height: auto;
+}
+
+img#Flechas{
+    margin-bottom: 0px;
+}
+
+#Tex #Texto{
+    font-family:'FrutigerLTStd-Roman';
+    text-align: center;
+    font-size: .6em;
+    margin-bottom: 0px; 
+    
+}
+
+
+.cobertura_ciudades{
+    display:none;
+}
+
+.titulo_estado{
+  cursor:pointer;  
+}
+
+.tam_carrusel_home
+    
+
+.google{
+    list-style:none;
+}
+
+.ios{
+    list-style:none;
+}
+
+.table-disabled{
+    background: lightgray;
+    color: #622b9a !important;
+}
+.table-disabled>thead>tr>th{
+    color: #622b9a !important;
+}
+
+
+.fronterizo_1{
+    text-align: center; 
+    font-size: 1.5rem;
+}
+
+.fronterizo_2{
+    text-align: left;
+}
+
+
+
+.fronterizo_3{
+    text-align: center;
+}
+
+
+.fronterizo_4{
+    text-decoration: line-through;
+}
+
+
+
+.fronterizo_5{
+    margin-left:0px;
+}
+
+
+
+
+
+
+.fronterizo_5{
+    color: #BDD630;
+}
+
+.fronterizo_6{
+    font-weight: lighter;
+}
+
+
+
+
+
+
+.title-top {
+    background-color: #512F84;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.title-top small {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.flecha-down {
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #512F84; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    position: absolute;
+    bottom: -24px;
+} 
+.tabla-fronteriza {
+    text-align: center;
+    color: #707070;
+}
+.tabla-fronteriza th{
+    background-color: #008542;
+    color: white;
+    border: 5px solid white;
+    width: 1px;
+}
+.tabla-fronteriza td {
+    background-color: #F4F4F5;
+    border: 5px solid white;
+    width: fit-content;
+}
+.municipios {
+    text-align: left;
+}
+.precios-frontera {
+    background-color: #E0E0E0;
+    text-align: center;
+}
+.precios-frontera .btn {
+    color: #512F84;
+    font-weight: bold;
+    font-style: none;
+}
+
+/*-------------RESPONSIVE---------fronterizos-----*/
+
+
+.tabs-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#precios {
+    background-color: white;
+}
+.precios-frontera {
+    padding: 0;
+}
+.suscribe-active{
+    background-color: #008542 !important;
+    color: white;
+}
+.suscribe-active p{
+    color: white;
+}
+
+.suscribe-inactive{
+    background-color: #DEE2E6 !important;
+}
+.suscribe-inactive p {
+    color: #63259D !important;
+}
+
+.suscribe-alambrico{
+    background-color: #DEE2E6;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscribe-inalambrico{
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscribe-satelital{
+    background-color: #DEE2E6;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.suscribe-text{
+    font-family: 'Frutiger LT Std';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.text-1st{
+    font-family: 'Frutiger LT Std';
+    color: #4e5154;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+    margin: 40px 0px 0px 0px;
+}
+
+.text-2nd{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 0px;
+    vertical-align: text-top;
+    line-height: 1;
+}
+
+.text-2nd_alt{
+    font-family: 'Futura Hv BT';
+    font-size: 4rem;
+}
+
+.text-2nd__alt{
+    font-size: 5.3rem;
+}
+
+.text-3rd{
+    font-family: 'Frutiger LT Std';
+    color: #512F84;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin: 0px 0px 45px 0px;
+}
+.text-3rd_alt{
+    font-family: 'Frutiger LT Std';
+    color: #212528;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+
+.text-4th{
+    font-family: 'Futura Md BT';
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1;
+    margin: 0px 0px 5px 0px;
+}
+.text-5th {
+    color: #626466;
+    font-size: 2rem;
+}
+.text-6th {
+    color: #212528;
+    font-size: 1.5rem;
+}
+.text-6th_alt {
+    color: #212528;
+    font-size: 1rem;
+    margin-top: 2vmin;
+}
+.alambrico-container{
+    padding: 0px 25px;
+}
+
+.inalambrico-container{
+    padding: 0px 25px;
+}
+.satelital-container{
+    padding: 0px 25px;
+}
+.blue-container{
+    width: 100%;
+    background-color: #512F84;
+    padding: 10px 15px 25px 15px;
+    margin-bottom: 15px;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hasta-text{
+    font-family: 'Futura Md BT';
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.hasta-text-alt_ {
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.capacidad-text{
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+    line-height: 1;
+}
+.alambrico-container .capacidad-text {
+    font-size: 4rem;
+}
+.alambrico-container .precio-text {
+    font-size: 4rem;
+}
+.alambrico-container .month-text {
+    font-size: 2rem;
+}
+.alambrico-container .btn-contratar {
+    font-size: 1rem;
+}
+.alambrico-container .yellow-container:after {
+    top: 193px;
+}
+.megas-text{
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    font-size: 40px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+
+.velocidad-text{
+    font-family: 'Futura Hv BT';
+    color: #95C841;
+    font-size: 12px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+
+.velocidad-text span{
+    font-family: 'Futura Md BT';
+}
+
+.yellow-container{
+    background-color: #BDD530;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+
+.yellow-container:after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(189, 213, 48, 1);
+    top: 168px;
+    left: 46%;
+}
+
+.capacidad-text-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 26px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #96c942;
+    margin-top: 5px;
+}
+
+.divider-alt{
+    height: 2px;
+    width: 100%;
+    background-color: #95C841;
+    margin-top: 5px;
+}
+
+.gigas-text{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 86px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+
+.gigas-text span{
+    font-size: 45px; 
+    text-transform: uppercase;
+}
+
+.caracteristicas-text{
+    color: #62259d;
+    font-size: 12px; 
+    margin: 10px 0px 5px 0px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+
+
+.money-text{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0px !important;
+}
+
+.money-text{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0px !important;
+}
+.money-text_alt{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #512F84;
+    margin: 0px !important;
+}
+.money-text__alt{
+    font-family: 'Futura Md BT';
+    font-size: 20px;
+    color: #512F84;
+    margin: 0px !important;
+}
+.precio-text{
+    font-family: 'Futura Md BT';
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0px !important;
+    line-height: 1;
+}
+.precio-text_alt{
+    font-family: 'Futura Md BT';
+    font-size: 5rem;
+    color: #512F84;
+    margin: 0px !important;
+    line-height: 1;
+}
+.precio-text__alt{
+    font-family: 'Futura Md BT';
+    font-size: 2rem;
+    color: #512F84;
+    margin: 0px !important;
+    line-height: 1;
+}
+.alambrico-container .money-text,.alambrico-container .precio-text,.alambrico-container .month-text{
+    color: #512F84;
+}
+
+.month-text{
+    font-family: 'Futura Md BT';
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+
+.btn-contratar{
+    width: 100%;
+    font-family: 'Futura Md BT';
+    font-size: 26px;
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+.btn-contratar:hover{
+    background-color: #BDD530;
+    color: #512F84;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 7px 7px 8px 0px rgba(0,0,0,0.2);
+}
+
+.importante-title{
+    font-family: 'Futura Hv BT';
+    font-size: 28px;
+    color: #646769;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;   
+}
+
+
+
+.number{
+    position: absolute;
+    width: 24px;
+    text-align: center;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #707070;
+    color: #ffffff;
+    left: -12px;
+    top: 30%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legals{
+    font-size: 14px;
+    color: #212528;
+    opacity: 0.7;
+    margin: 25px 0px 15px 0px;
+}
+.esp-alambricas {
+    background-color: #512F84;
+    border: 1px solid #512F84;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    width: 309px;
+    height: 211px;
+}
+.card-img-top {
+    width: auto;
+    height: 90%;
+}
+p.card-text {
+    font-size: 14px;
+}
+.p-strong {
+    color: #BDD530;
+    margin-bottom: 0;
+}
+.card-group-alambrico {
+    background-color: #E8E8E8;
+    padding: 5vmin 2vmin;
+}
+.separador-satelital {
+    border: 1px solid #008542;
+}
+.empresariales {
+    font-size: 1rem;
+    font-family: 'Futura Md BT';
+    color: #000 !important;
+
+}
+.col-empresariales {
+    border: 1px solid #512F84;
+}
+.yellow-title {
+    background-color: #BDD630;
+    padding: 1.5vmin 30vmin;
+}
+.title-sat-ilimitado {
+    color: #512F84;
+    font-size: 2rem;
+}
+.card-capacidad {
+    background-color: #BDD530;
+    border: 2px solid #F7F8F8;
+}
+.img-capacidad-sat {
+    width: 100%;
+}
+.btn-contrata-sat{
+    background-color: #512F84;
+    color: white;
+    border-radius: 0;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1vmin 15vmin;
+}
+.bg-inst {
+    background-color: #512F84;
+    color: white;
+}
+.card-inst {
+    border: none;
+    border-radius: 0;
+}
+.footer-inst {
+    font-size: 0.8rem;
+}
+.footer-inst_alt {
+    font-size: 0.6rem;
+}
+@media (max-width: 400px) {
+    .suscribe-inalambrico-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-alambrico-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 10px !important;
+    }
+
+    .tabs-container{
+        display: block !important;
+    }
+
+    .suscribe-alambrico {
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .suscribe-inalambrico {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .text-1st {
+        font-size: 30px !important;
+    }
+
+    .text-2nd {
+        font-size: 48px !important;
+    }
+
+    .text-2nd_alt {
+        font-size: 55px !important;
+    }
+
+    .text-2nd__alt {
+        font-size: 98px !important;
+    }
+
+    .text-3rd {
+        font-size: 14px !important;
+    }
+
+    .text-4th {
+        font-size: 18px !important;
+    }
+
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 580px) {
+    .suscribe-inalambrico-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-alambrico-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 40px !important;
+    }
+
+    .tabs-container{
+        display: block !important;
+    }
+
+    .suscribe-alambrico {
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .suscribe-inalambrico {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .text-1st {
+        font-size: 30px !important;
+    }
+
+    .text-2nd {
+        font-size: 50px !important;
+    }
+
+    .text-2nd_alt {
+        font-size: 55px !important;
+    }
+
+    .text-2nd__alt {
+        font-size: 98px !important;
+    }
+
+    .text-3rd {
+        font-size: 14px !important;
+    }
+
+    .text-4th {
+        font-size: 18px !important;
+    }
+
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+    
+}
+
+@media screen and (min-width: 581px) and (max-width: 990px) {
+    
+    .suscribe-inalambrico-container {
+        padding: 0px !important;
+    }
+
+    .suscribe-alambrico-container {
+        padding: 0px !important;
+    }
+
+    .yellow-container {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .hasta-text {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .text-1st, .text-2nd, .text-3rd, .text-4th {
+        text-align: center !important;
+        padding: 0px 10px !important;
+    }
+
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .capacidad-text{
+        font-size: 90px !important;
+    }
+
+    .megas-text{
+        font-size: 30px !important;
+    }
+
+    .gigas-text{
+        font-size: 62px !important;
+    }
+
+    .gigas-text span{
+        font-size: 40px !important;
+    }
+
+    .money-text{
+        font-size: 30px !important; 
+    }
+
+    .precio-text{
+        font-size: 65px !important; 
+    }
+
+    .month-text{
+        font-size: 34px !important; 
+    }
+
+    .yellow-container:after {
+        top: 190px !important;
+    }
+
+    .first{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .second{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .third{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .fourth{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .fifth{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+    }
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .break-text {
+    display: none;
+  }
+  .bannericon_1{
+    background: url(../media/ON_Pauta-Inalambrico_Slider-Desktop.jpg )no-repeat center !important;
+    background-size: auto !important;
+    background-size: 100% !important;
+    height: 400px;
+}
+
+ 
+}
+
+
+.footer-precios{
+     font-family: 'Futura Md BT';
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #ffffff;
+    color: #000 !important;
+}
+
+.legales small{
+    font-family: 'Futura Md BT';
+    color: #000 !important;
+}
+
+ 
+@media only screen and (max-width: 991px) {
+    .titulo-img {
+        height: 10vmin;
+        }
+     
+
+}
+ 
+  @media only screen and (max-width: 800px) {
+    .titulo-img {
+        height: 10vmin;
+        }
+
+      
+
+}
+  
+  @media only screen and (max-width: 700px){
+    .titulo-img {
+        height: 10vmin;
+    }
+
+     
+   
+
+}  
+@media only screen and (max-width: 500px){
+    .titulo-img {
+        height: 20vmin;
+    }
+    .migajas {
+        font-size: 1rem;
+    }
+
+    .baner_buenfinn_box{
+        left: 40px;
+    }
+
+    .baner_buenfinn_{
+        content:url('../media/movil5.jpg') !important;
+          box-sizing:border-box;
+        display:block;
+        background: url('../media/movil5.jpg');
+        overflow:hidden;
+        box-sizing: border-box;
+        width: 300px;
+        height: 300px;
+        padding-left: 300px;
+    }
+
+}
+
+
+
+
+
+.popup{
+    width: 798px;
+}
+
+#modalbuenfinn{
+        padding-right: 177px !important;
+}
+
+.header_modal_buenfin{
+    top: 31px;
+
+    position: relative;
+
+    z-index: 10;
+
+    right: 10px;
+}
+
+
+.header_modal_buenfin_tache{
+    color: white;
+    font-size: 35px;
+}
+
+
+.pointerevents{
+    pointer-events: all !important;
+}
+
+
+
+.legales_portabilidad{
+       font-family: 'Futura Md BT';
+    color: #000 !important;
+}
+
+.switch-2{
+    background-color: #F4F4F5;
+    padding: 20px 0;
+}
+.flecha-abajo{
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #F4F4F5; /* base flecha y color*/
+    position: absolute;
+    bottom: -44px;
+} 
+.suscribe-basico{
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-extremo{
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-sat-active{
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-sat-inactive{
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.extremo-contains{
+    margin-top: 10vmin;
+}
+.special-pack-alt{
+    margin-top: -4.5vmin;
+}
+.basico-contains{
+    margin: 10vmin !important;
+}
+.tab-switch-2{
+    margin-top: 0 !important;
+}
+#title-satelite{
+    color: #512F84;
+    border-bottom: 2px solid #008542;
+    padding-bottom: 10px;
+}
+.t-container{
+    text-align: center;
+    color: #4E5154;
+}
+#gb{
+    background-color: #512F84;
+    color: white;
+}
+.capacidad-text-alt-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+.cap-sat{
+    color: #BDD630;
+}
+.gb-adicionales{
+    font-weight: bolder;
+    font-size: 12px;
+}
+.totales-text{
+    font-size: 20px;
+    color: #512F84;
+    margin-bottom: 0;
+}
+.totales-text-alt{
+    font-size: 20px;
+    color: #BDD630;
+    margin-bottom: 0;
+}
+.capacidad-yellow{
+    background-color: #BDD630;
+    border: 1px solid #512F84;
+    color: #512F84;
+    padding: 7px 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1000 !important;
+    position: relative;
+}
+.capacidad-yellow-alt{
+    background-color: #512F84;
+    border: 1px solid #BDD630;
+    color: white;
+    padding: 7px 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1000 !important;
+    position: relative;
+}
+.capacidad-yellow h6{
+    margin-bottom: 0;
+}
+.capacidad-yellow-alt h6{
+    margin-bottom: 0;
+}
+.old-capacidad{
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    padding: 28px 10px 5px 10px;
+    position: relative;
+    left: -34px;
+    bottom: 18px;
+}
+.old-capacidad-ex{
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    padding: 35px 10px 5px 10px;
+    position: relative;
+    left: -34px;
+    bottom: 25px;
+    margin-right: -69px;
+}
+
+.old-capacidad-ex-sat{
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    position: relative;
+    left: -34px;
+    padding: 17px 5px 5px;
+    bottom: 17px;
+    margin-right: -69px;
+}
+.arrow-left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #512F84 transparent transparent;
+    margin-top: -18px;
+    position: relative;
+    left: -34px;
+}
+.arrow-right{   
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #512F84 transparent transparent transparent;
+    margin-top: -21px;
+    position: relative;
+}
+.contratar-btn{
+    top: 35px;
+}
+
+.btn-contratar-alt{
+    width: 100%;
+    font-family: 'Futura Md BT';
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+.blue-container-alt{
+    width: 100%;
+    background-color: #BDD630;
+    padding: 10px 15px 25px 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.blue-bas{
+    width: 116% !important;
+}
+.yellow-container-alt{
+    background-color: #512F84;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+.hasta-text-alt-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.capacidad-text-alt-sat{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 100px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+.megas-text-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 40px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+.caracteristicas-text-alt{
+    color: #BDD630;
+    font-size: 12px; 
+    margin: 10px 0px 5px 0px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.gigas-text-alt{
+    font-family: 'Futura Md BT';
+    color: #BDD630;
+    font-size: 86px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+
+.money-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #512F84;
+    margin: 0px !important;
+}
+.precio-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 3rem;
+    color: #512F84;
+    margin: 0px !important;
+    line-height: 1;
+}
+.month-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 44px;
+    color: #512F84;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+.hasta-text-sat{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.hasta-text-bas{
+    font-family: 'Futura Md BT';
+    color: white;
+    font-size: 0.9rem;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.special-pack{
+    background-color: #512F84;
+    color: #BDD630;
+    text-align: center;
+    
+    width: 109%;
+}
+.sp-ex{
+    width: 100%;
+    height: 42px;
+}
+.special-pack h6{
+    margin-bottom: 0;
+    font-size: 13px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flecha-down{
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #512F84; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    position: absolute;
+    top: 25px;
+} 
+.card-inst{
+    text-align: center;
+}
+
+.esp-sat{
+    background-color: #512F84;
+    border: 1px solid #BDD630 !important;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    width: 309px;
+    height: 211px;
+}
+
+.esp-sat-alt{
+    background-color: #BDD630;
+    border: 1px solid #512F84 !important;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    width: 309px;
+    height: 211px;
+}
+.text-card-sat{
+    color: #512F84;
+}
+.card-internet, .card-www, .card-fz{
+    padding: 10px 5px 2px 5px;
+    font-size: 16px;
+}
+.link-sat{
+    color: white;
+    text-decoration: underline !important;
+    font-weight: bold;
+
+}
+.text-card-sat-alt{
+    color: #512F84;
+    font-weight: bolder;
+}
+.small-sat{
+    color: #212528;
+    text-align: center;
+    font-size: 14px;
+}
+p.card-text{
+    font-size: 0.8rem;
+
+}
+.card-group-sat{
+    background-color: #E8E8E8;
+    padding: 5vmin 5vmin;
+}
+.modal-title{
+    text-align: center;
+    color: #512F84;
+    font-size: 1rem;
+}
+.y-table{
+    text-align: center;
+}
+.y-table thead{
+    background-color: #BDD630;
+    color: #512F84;
+}
+.title-y-table{
+    padding: 20px 40px !important;
+}
+.y-table tbody{
+    color: #727272;
+}
+.s-table{
+    color: darkslategray;
+}
+.p-table {
+    text-align: center;
+}
+.p-table thead{
+    background-color: #512F84;
+    color: #BDD630;
+}
+.p-table tbody{
+    color: #727272;
+}
+.cap-bas{
+    font-size: 40px;
+}
+.megas-bas, .hasta-bas{
+    font-size: 15px;
+}
+.blue-container{
+    text-align: center;
+}
+.y-cont-bas::after{
+    top: 190px;
+}
+.g-bas{
+    font-size: 5rem;
+}
+.g-bas span{
+    font-size: 2rem;
+}
+.money-bas{
+    font-size: 20px;
+}
+.precio-bas{
+    font-size: 2rem;
+}
+.month-bas{
+    font-size: 1rem;
+}
+.cap-y-b{
+    margin-top: 1vmin;
+    padding: 10px;
+}
+
+.p-container::after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #512F84;
+    top: 253px;
+    left: 46%;
+}
+.p-container-bas::after{
+    top: 225px;
+}
+.contrata-sat{
+    font-size: 0.7em;
+}
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+    .sp-ex-PF {
+        width: 80%!important;
+        margin-left: 20px!important;
+        margin-top: 15px;
+    }
+    .arrow-r-PFext {
+        left:108.5%!important;
+    }
+    .arrow-r-PFext {
+        left:48.3vmin
+    }
+    .arrow-left-basico{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512F84 transparent transparent;
+        margin-top: -18px!important;
+        position: relative;
+        left: -34px;
+    }
+    .arrow-left-PFbas{
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        top: 0px;
+        left: -34px;
+    }
+    .arrow-left{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512F84 transparent transparent;
+        margin-top: -25px!important;
+        position: relative;
+        left: -34px;
+    }
+    .old-capacidad{
+        width: auto;
+        margin-right: -60px;
+    }
+    .precio-text_alt{
+        font-size: 3rem;
+    }
+    .precio-bas{
+        font-size: 3rem!important;
+    }
+    .text-3rd_alt{
+        font-size: 1rem;
+    }
+    .p-card-sat{
+        font-size: 0.5rem;
+    }
+    p.card-text{
+        font-size: 0.6rem;
+    }
+    .arrow-right{
+        left: 73vmin;
+    }
+    .p-strong{
+        font-size: 0.7em;
+    }
+    .p-container::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512F84;
+        top: 250px;
+        margin: 0 -3%;
+    }
+    .p-container-ex-PF:after{
+        top:230px!important;
+        left: 45%;
+    }
+    .p-container-ex::after{
+        top: 240px;
+        left: 50%;
+    }
+    .blue-container-PF-ext {
+        width: 80%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .blue-container-alt-PF {
+        width: 80%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 110px!important;
+        left: 45%!important;
+    }
+
+    .bannericon_1{
+        background: url(../media/ON_Pauta-Inalambrico_Slider-Mobile.jpg)no-repeat center;
+        background-size: auto;
+        background-size: 100%;
+        height: 580px !important;
+        margin: 1% 20%;
+    }
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px){
+    
+    .sp-ex-PF {
+        width: 80%!important;
+        margin-left: 46px!important;
+        margin-top: 30px;
+    }
+    .arrow-r-PFext {
+        left:353px;
+    }
+    .arrow-r-PFext {
+        left:48.3vmin
+    }
+    .arrow-right{
+        left: 445px;
+    }
+    .precio-text_alt{
+        font-size: 3rem;
+    }
+    .text-3rd_alt{
+        font-size: 1rem;
+    }
+    .p-card-sat{
+        font-size: 0.6rem;
+    }
+    p.card-text{
+        font-size: 0.6rem;
+    }
+    .old-bas{
+        width: 52.5vmin;
+    }
+    .arrow-r-bas{
+        left: 304px;
+    }
+    .p-strong, p.card-text{
+        font-size: 0.7em;
+    }
+    .p-container::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512F84;
+        top: 250px;
+        left: 46%;
+    }
+    .p-container-ex::after{
+        top: 248px;
+        left: 45%;
+    }
+    .arrow-left-PFbas{
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        margin-top: -18px!important;
+        left: -34px;
+    }
+    .arrow-left{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512F84 transparent transparent;
+        margin-top: -25px;
+        position: relative;
+        left: -34px;
+    }
+    .p-container-ex-PF::after{
+        top: 240px!important;
+        left: 46%;
+    }
+    .blue-container-PF-ext {
+        width: 80%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .blue-container-alt-PF {
+        width: 80%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 157px!important;
+        left: 42%!important;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px){
+    
+    .sp-ex-PF {
+        width: 88%!important;
+        margin-left: 17px!important;
+    }
+    .arrow-r-PFext {
+        left:275px!important;
+    }
+    .arrow-right{
+        left: 145px;
+    }
+    .arrow-left-basico{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512F84 transparent transparent;
+        margin-top: -18px;
+        position: relative;
+        left: -34px;
+    }
+    .arrow-left{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512F84 transparent transparent;
+        margin-top: -25px !important;
+        position: relative;
+        left: -34px;
+    }
+    .precio-text_alt{
+        font-size: 3rem;
+    }
+    .p-card-sat{
+        font-size: 0.8rem;
+    }
+    p.card-text{
+        font-size: 0.6rem;
+    }
+    .gigas-text{
+        font-size: 4rem;
+    }
+    .gigas-text-alt{
+        font-size: 4rem;
+    }
+    .y-cont-bas::after{
+        top: 300px;
+    }
+    .old-bas{
+        width: 37vmin;
+    }
+    .arrow-r-bas{
+        left: 199px;
+    }
+    .p-strong, p.card-text{
+        font-size: 0.7em;
+    }
+    .p-container::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512F84;
+        top: 253px;
+        left: 46%;
+    }
+    .arrow-left-PFbas{
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        margin-top: -18px!important;
+        left: -34px;
+    }
+    .p-container-ex-PF::after{
+        top: 240px!important;
+        left: 45%!important;
+    }
+    .p-container-ex::after{
+        top: 250px;
+        left: 40%;
+    }
+    .blue-container-PF-ext {
+        width: 88%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .blue-container-alt-PF {
+        width: 88%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 90px!important;
+        left: 45%!important;
+    }
+    .bannericon_1{
+        background: url(../media/ON_Pauta-Inalambrico_Slider-Desktop.jpg )no-repeat center !important;
+        background-size: auto !important;
+        background-size: 100% !important;
+        height: 400px;
+        margin: 0;
+    }
+
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px){
+    
+    .sp-ex-PF {
+        width: 88%!important;
+        margin-left: 10px!important;
+    }
+    .arrow-r-PFext {
+        left:169px!important;
+    }
+    .suscribe-inalambrico-container {
+        padding: 0px !important;
+    }
+    .arrow-right{
+        left: 224px;
+    }
+    .btn-contratar-alt{
+        font-size: 1rem;
+    }
+    .old-bas{
+        width: 17.3vmin;
+    }
+    .btn-bas{
+        left: -15px;
+        position: relative;
+        margin-right: -4.5vmin;
+        top: 0;
+    }
+    .btn-c-bas{
+        font-size: 0.6rem;
+    }
+    .special-pack-bas{
+        margin-top: -3.5rem!important;
+    }
+    .y-cont-bas .caracteristicas-text{
+        font-size: 10px;
+    }
+    .y-cont-bas .caracteristicas-text-alt{
+        font-size: 10px;
+    }
+    .g-bas{
+        font-size: 5em;
+    }
+    .money-bas{
+        font-size: 12px;
+    }
+    .precio-bas{
+        font-size: 3rem;
+    }
+    .cap-y-b span{
+        font-size: 7px;
+    }
+    .old-bas h1{
+        font-size: 1.5rem;
+    }
+    .cap-y-b p{
+        font-size: 0.5rem;
+        margin-bottom: 0;
+    }
+    .arrow-r-bas {
+        left: 88px;
+        top: 1px;
+    }
+    .col-lg-2{
+        flex: 0 0 16.666667%;
+        max-width: 20%;
+    }
+    .y-cont-bas::after{
+     top: 190px;
+    }
+    .cap-y-b{
+        margin-top: 2vmin;
+    }
+    .p-strong, p.card-text{
+        font-size: 0.9em;
+    }
+    .arrow-extremo{
+        margin-top: -25px;
+    }
+    .p-container::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512F84;
+        top: 250px;
+        left: 39%!important;
+    }
+    .arrow-left-PFbas{
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        margin-top: -18px!important;
+        left: -34px;
+    }
+    .p-container-ex-PF::after{
+        top:240px!important;
+        left: 42%!important;
+    }
+    .p-container-ex::after{
+        top: 250px;
+        left: 38%;
+    }
+    .blue-container-PF-ext {
+        width: 88%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt-PF {
+        width: 88%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 100px!important;
+        left: 43%!important;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px){
+    
+    .sp-ex-PF {
+        width: 100%!important;
+        margin-left: 18px!important;
+    }
+    .arrow-r-PFext {
+        left:159px!important;
+    }
+    .arrow-right{
+        left: 190px;
+    }
+    .arrow-r-bas{
+          left: 107px;
+         top: 2px;
+    }
+    .arrow-left-PFbas{
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        margin-top: -18px!important;
+        left: -34px;
+    }
+    .btn-contratar-alt{
+        font-size: 1.5rem;
+    }
+    .precio-text_alt{
+        font-size: 5rem;
+    }
+    .old-bas{
+        width: 22vmin;
+    }
+    .btn-bas{
+        left: -15px;
+        position: relative;
+        margin-right: -4.5vmin;
+        top: 0;
+    }
+    .btn-c-bas{
+        font-size: 0.6rem;
+    }
+    .special-pack-bas{
+        margin-top: -3.5rem!important;
+        top: 10px;
+    }
+
+    .p-strong, p.card-text{
+        font-size: 0.9em;
+    }
+    .p-container::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512F84;
+        top: 250px;
+        left: -4px 0%;
+    }
+    .p-container-ex-PF::after{
+        top: 240px!important;
+        left: 50%!important;
+    }
+    .p-container-ex::after{
+        top: 250px;
+        left: 45%;
+    }
+    .blue-container-PF-ext {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt-PF {
+        width: 100%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 100px!important;
+        left: 48%!important;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+alambrico*/
+
+.alambrico-contains{
+    word-wrap: initial !important;
+    font-family:"Futura Md BT" !important;
+}
+
+#title-alam {
+    color: #512F84;
+    padding-bottom: 10px;
+}
+.switch-alam {
+    background-color: #F4F4F5;
+    padding: 20px 0;
+    width: 110%;
+}
+.tab-switch-alam {
+    margin-top: 0;
+}
+.flecha-abajo-alam {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #F4F4F5;
+    position: absolute;
+    bottom: -44px;
+}
+.t-container-alam {
+    text-align: center;
+    color: #4E5154;
+}
+.money-t-alam, .precio-t-alam {
+    color: #512F84;
+}
+.money-t-alam-alt, .precio-t-alam-alt {
+    color: #BDD530;
+}
+.money-t-alam, .money-t-alam-alt {
+    font-size: 2em;
+}
+.hasta-text-alam {   
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 1rem;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.divider-alt-alam {
+    height: 2px;
+    width: 100%;
+    background-color: #512F84;
+    margin-top: 5px;
+    
+}
+.hasta-antes {
+    color: #4E5154;
+}
+.hasta-ahora {
+    color: #512F84;
+}
+.hasta-alam-special {
+    font-size: 8px;
+    left: -10px;
+    top: 20px;
+    margin-bottom: 0;
+}
+.hasta-alam-special-2 {
+    font-size: 8px;
+    left: -5px;
+    top: 20px;
+    margin-bottom: 0;
+}
+.cant-alam {
+    font-size: 2.2em;
+    margin: 5px 0;
+}
+.cant-alam-H {
+    font-size: 1.8em;
+    margin: 5px 0;
+}
+.cant-alam-2 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+}
+.alam-alt:hover {
+    background-color: #512F84;
+    color: white;
+}
+.hasta-alam {
+    font-size: 0.7rem;
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+.megas-alam {
+    font-size: 1.4rem;
+    margin-bottom: 0 !important;
+}
+.megas {
+    margin-bottom: 0;
+}
+.month-text-alam {
+    color: #512F84;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+.cont-precio {
+    margin-bottom: -15px;
+}
+.container-alam::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(189, 213, 48, 1);
+    top: 97px;
+    left: 46%;
+}
+.container-alam-special::after {
+    border-bottom: 15px solid #512F84 !important;
+}
+.month-text-special {
+    color: #BDD530;
+}
+.linea-text {
+    color: #96C942;
+    text-align: center;
+}
+.megas-tel {
+    margin-bottom: 10px;
+}
+.old-capacidad-tel {
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: -25px;
+    bottom: 7px;
+    margin-right: -50px;
+}
+.arrow-linea {
+    margin-top: -7px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #512F84 transparent transparent;
+    position: relative;
+}
+.arrow-r-linea {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #512F84 transparent transparent transparent;
+    margin-top: -21px;
+    position: relative;
+}
+.internet-contains {
+    margin: 0 !important;
+}
+.suscribe-internet {
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-tel {
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+
+.suscribe-sat-active {
+    background-color: #512F84 !important;
+    color: white !important;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-sat-inactive {
+    background-color: #F4F4F5 !important; 
+    border: 1px solid #B3B3B3 !important;
+    color: #707070 !important;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+p.month-text-alam {
+    font-size: 2em;
+}
+.portabilidad {
+    background-color: #BDD530;
+    text-align: center;
+    color: #512F84;
+    padding-top: 20px;
+    height: 20vmin;
+}
+.btn-purple {
+    background-color: #4C2C7C;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 15px;
+    position: relative;
+    font-size: 1.3em;
+    top: 0vmin;
+}
+.btn-purple:hover {
+    background-color: #BDD530;
+    border: 2px solid #512F84;
+    color: #512F84;
+    padding: 20px 15px;
+    font-size: 1.3em;
+}
+.card-carac {
+    padding: 7vmin 2vmin 5vmin;
+}
+.ofertON {
+    font-size: 1.8em;
+}
+.yellow-container-alam-alt {
+    background-color: #512F84;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+    flex-direction: column;
+}
+.alambrico-container {
+    padding: 0px 25px;
+}
+.yellow-container-alam{
+    background-color: #BDD530 !important;
+    padding: 15px;
+    text-align: center;
+    padding: 10px 15px 25px 15px;
+    flex-direction: column;
+    margin-left: -35px;
+    margin-right: -35px;
+}
+.special-pack {
+    margin-left: 0;
+}
+.small-alam {
+    color: #212528;
+    text-align: center;
+    font-size: 14px;
+}
+.contrata-alam {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Futura Md BT';
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+.p-strong-alam {
+    color: #BDD530;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+.btn-special {
+    margin-top: 0;
+}
+
+
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .telconteins_fronterizo{
+        margin-left: 0px;
+    }
+    .gigas-text span {
+        font-size: 24px!important;
+    }   
+    .inalambrico-container-telfija {
+        padding:0 66px!important;
+    }
+    .inalambrico-container-PF-telfija {
+        padding: 0 25px!important;
+    }
+    .blue-container-PF-telfija {
+        width: 100%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PFInalam-Postpago{
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-alam-PF-net {
+        width: 80%!important;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    .container-alam::after {
+        top:190px;
+    }
+    .container-alam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 120px;
+        left: 45%;
+    }
+    .container-alam-PF-telfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 144px;
+        left: 45%;
+    }
+    .container-alam-internet::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 133px;
+        left: 43%;
+    }
+    .container-alam-PF-net::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 155px!important;
+        left: 47%;
+    }
+    .container-alam-internettelfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 120px;
+        left: 48%;
+    }
+    .precio-t-alam {
+        font-size: 3em;
+    }
+    .money-t-alam, .money-t-alam-alt {
+        top: 10px;
+        margin-right: 10px;
+    }
+    .blue-alam {
+        width: 100%!important;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .cont-tel::after {
+        /*top: 253px;*/
+    }
+    .precio-t-alam-alt {
+        font-size: 3em;
+    }
+    .container-alam-special::after {
+        top: 130px;
+        left: 45%;
+    }
+    .c-alam-special-PF-net::after {
+        margin-top: 3px!important;
+        margin-left: 0%!important;
+        border-bottom: 15px solid #512f84!important;
+    }
+    .card-carac {
+        margin-top: 33vmin;
+    }
+    img#mexico-img, img#cable-img, img#internet-img {
+        width: 35%;
+    }
+    img#capacidad-img {
+        width: 40%;
+    }
+    .text-caract {
+        font-size: 0.5em;
+        margin-bottom: 0;
+    }
+    .p-strong-alam {
+        font-size: 0.6em;
+    }
+    .arrow-l-PF-nettel {
+        left: 163px;
+    }
+    .arrow-r-nettel {
+        left: 231px;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+    .inalambrico-container-telfija {
+        padding:0 22px!important;
+    }
+    .inalambrico-container-PF-telfija {
+        padding: 0 40px!important;
+    }
+    .blue-container-PF-telfija {
+        width: 70%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left:10%;
+    }
+    .container-alam::after {
+        top:188px;
+    }
+    .container-alam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 82px;
+        left: 48%;
+    }
+    .container-alam-PF-telfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 145px!important;
+        left: 44%!important;
+    }
+    .container-alam-internet::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 137px;
+        left: 35%;
+    }
+    .container-alam-PF-net::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 165px!important;
+        left: 47%;
+    }
+    .container-alam-internettelfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 162px;
+        left: 48%;
+    }
+    .blue-alam-PF-net {
+        width: 70%!important;
+        margin-left: 15%;
+        margin-bottom: 15px;
+    }
+    .blue-container-internettelfija {
+        width: 100%;
+    }
+    .precio-t-alam, .precio-t-alam-alt {
+        font-size: 3em;
+    }
+    .money-t-alam, .money-t-alam-alt {
+        top: 12px;
+    }
+    .blue-alam {
+        width: 100%!important;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PFInalam-Postpago{
+        width: 80%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .container-alam-special::after {
+        top: 155px;
+    }
+    .c-alam-special-PF-net::after {
+        margin-top: 0px!important;
+        margin-left: 0%!important;
+        border-bottom: 15px solid #512f84!important;
+    }
+    .cont-tel::after {
+       /* top: 253px;*/
+    }
+    .portabilidad {
+        height: 13vmin;
+    }
+    .card-carac {
+        margin-top: 5vmin;
+    }
+    .arrow-r-linea {
+        left: 230px;
+    }
+    .arrow-l-PF-nettel{
+        left: 230px;;
+    }
+    .arrow-r-nettel {
+        left: 441px;
+    }
+    .text-caract {
+        font-size: 0.5em;
+        margin-bottom: 0;
+    }
+    .p-strong-alam {
+        font-size: 0.6em;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .cap-alam {
+        font-size: 2rem ;
+    }
+    .vel-alam {
+        font-size: 1.5rem;
+        margin-right: 7px;
+    }
+    .contrata-alam {
+        font-size: 0.5em;
+    }
+    .inalambrico-container-telfija {
+        padding:0 38px!important;
+    }
+    .inalambrico-container-PF-telfija {
+        padding: 0 40px!important;
+    }
+    .blue-container-PF-telfija {
+        width: 110%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left:-15%;
+    }
+    .img-vel {
+        width: 25%;
+    }
+    .precio-t-alam, .precio-t-alam-alt {
+        font-size: 2em;
+        line-height: 1;
+        font-family: 'Futura Md BT';
+    
+    }
+    .money-t-alam, .money-t-alam-alt {
+        font-size: 1em;
+        margin-top: 5px;
+    }
+    .blue-alam {
+        width: 90%!important;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .blue-alam-PF-net {
+        width: 90%!important;
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
+    .blue-C-PFInalam-Postpago{
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam::after {
+        top:128px;
+    }
+    .container-alam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 160px;
+        left: 40%;
+    }
+    .container-alam-PF-telfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 130px!important;
+        left: 40%!important;
+    }
+    .container-alam-internet::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 135px;
+        left: 43%;
+    }
+    .container-alam-PF-net::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 160px!important;
+        left: 40%;
+    }
+    .container-alam-internettelfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 127px;
+        left: 50%;
+    }
+    .container-alam-special::after {
+        top: 170px;
+        left:40%;
+    }
+    .c-alam-special-PF-net::after {
+        margin-top: 0px!important;
+        margin-left: 7%!important;
+        border-bottom: 15px solid #512f84!important;
+    }
+    .cont-tel::after {
+        /*top: 278px;*/
+    }
+    .contrata-alam {
+        font-size: 1em;
+    }
+    .arrow-r-linea {
+        left: 215px;
+    }
+    .arrow-l-PF-nettel{
+        left:215px;
+    }
+    .arrow-r-nettel {
+        left: 255px;
+    }
+    .text-caract {
+        font-size: 0.6em;
+        margin-bottom: 0;
+    }
+    .p-strong-alam {
+        font-size: 0.7em;
+    }
+
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    .cap-alam {
+        font-size: 4.2rem;
+    }
+    .container-alam::after {
+        top:165px;
+    }
+    .c-alam-special-PF-net::after {
+        margin-top: 0px!important;
+        margin-left: 10%!important;
+        border-bottom: 15px solid #512f84!important;
+    }
+    .inalambrico-container-telfija {
+        padding:0 22px!important;
+    }
+    .inalambrico-container-PF-telfija {
+        padding: 0 31px!important;
+    }
+    .blue-container-PF-telfija {
+        width: 130%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PFInalam-Postpago{
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-alam-PF-net {
+        width: 100%!important;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .container-alam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 110px;
+        left: 35%;
+    }
+    .container-alam-PF-telfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 180px!important;
+        left: 40%!important;
+    }
+    .container-alam-internet::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 175px;
+        left: 45%;
+    }
+    .container-alam-PF-net::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 205px!important;
+        left: 45%;
+    }
+    .container-alam-internettelfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 175px;
+        left: 43%;
+    }
+    .cap-tel {
+        font-size: 4em;
+    }
+    .blue-alam {
+        width: 100%!important;
+        margin-left: -19.5px;
+        margin-bottom: 15px;
+    }
+    .cont-tel::after {
+       /* top: 274px;*/
+    }
+    .arrow-r-linea {
+        left: 88px;
+    }
+    .arrow-l-PF-nettel{
+        left:85px;
+    }
+    .arrow-r-nettel {
+        left: 105px;
+    }
+    .text-caract {
+        font-size: 0.7em;
+        margin-bottom: 0;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+        .cap-alam {
+            font-size: 4.2rem;
+        }
+        .vel-alam {
+            margin-right: 1rem;
+            font-size: 1em;
+        }
+        .precio-t-alam, .precio-t-alam-alt {
+            font-size: 3em;
+        }
+        .money-t-alam, .money-t-alam-alt {
+            font-size: 2em;
+            margin: -12px 22px ;
+
+        }
+        .inalambrico-container-telfija {
+            padding:0 40px!important;
+        }
+        .inalambrico-container-PF-telfija {
+            padding: 0 35px!important;
+        }
+        .blue-container-PF-telfija {
+            width: 135%!important;
+            background-color: #512f84;
+            padding: 10px 15px 25px;
+            margin-bottom: 15px;
+        }
+        .blue-alam {
+            width: 100%!important;
+            margin-left: 16px;
+            margin-bottom: 15px;
+        }
+        .blue-alam-PF-net {
+            width: 100%!important;
+            margin-left: 16px;
+            margin-bottom: 15px;
+        }
+        .blue-C-PFInalam-Postpago{
+            width: 100%;
+            background-color: #512f84;
+            padding: 10px 15px 25px;
+            margin-bottom: 15px;
+        }
+        .contrata-alam {
+            font-size: 1em;
+        }
+        .container-alam::after {
+            top:85px;
+        }
+        .container-alam-internet::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #bdd530;
+            top: 177px;
+            left: 52%;
+        }
+        .container-alam-PF-net::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #bdd530;
+            top: 185px!important;
+            margin: 0 10%;
+        }
+        .container-alam-internettelfija::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #bdd530;
+            top: 97px;
+            margin: 0 5%;
+        }
+        .container-alam::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #bdd530;
+            top: 97px;
+            left: 52%;
+        }
+        .container-alam-PF-telfija::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #bdd530;
+            margin-top: -10px!important;
+            left: 45%!important;
+        }
+        .yellow-container-alt.precio-container.container-alam.container-alam-special {
+            margin-top: 15px;
+        }
+        .cont-tel::after {
+            /*top: 209px;*/
+        }
+        .cont-tel_home::after{
+            top: 169px!important;
+        }
+        .card-carac {
+            margin-top: 0;
+        }
+        .arrow-r-linea {
+            left: 105px;
+        }
+        .arrow-l-PF-nettel{
+            left: 130px;
+        }
+        .arrow-r-nettel {
+            left: 105px;
+        }
+        .text-caract {
+            font-size: 0.8em;
+            margin-bottom: 0;
+        }
+        .p-strong-alam {
+            font-size: 0.9em;
+        }
+        .container-alam-special:after {
+            top:108px!important;
+        }
+        .c-alam-special-PF-net::after {
+            margin-top: -5px!important;
+            margin-left: 0%!important;
+            border-bottom: 15px solid #512f84!important;
+        }
+  }
+
+  .switch-2 {
+    background-color: #F4F4F5;
+    padding: 20px 0;
+    width: 110%;
+}
+.flecha-abajo {
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #F4F4F5; /* base flecha y color*/
+    position: absolute;
+    bottom: -44px;
+} 
+.suscribe-basico {
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-extremo {
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-sat-active {
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-sat-inactive {
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.extremo-contains {
+    margin-top: 10vmin;
+}
+.special-pack-alt {
+    margin-top: -4.5vmin;
+}
+.basico-contains{
+    margin: 10vmin !important;
+}
+.tab-switch-2 {
+    margin-top: 0 !important;
+}
+#title-satelite {
+    color: #512F84;
+    border-bottom: 2px solid #008542;
+    padding-bottom: 10px;
+}
+.t-container {
+    text-align: center;
+    color: #4E5154;
+}
+#gb {
+    background-color: #512F84;
+    color: white;
+}
+.capacidad-text-alt-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+.cap-sat {
+    color: #BDD630;
+}
+.gb-adicionales {
+    font-weight: bolder;
+    font-size: 12px;
+}
+.totales-text {
+    font-size: 20px;
+    color: #512F84;
+    margin-bottom: 0;
+}
+.totales-text-alt {
+    font-size: 20px;
+    color: #BDD630;
+    margin-bottom: 0;
+}
+.capacidad-yellow {
+    background-color: #BDD630;
+    border: 1px solid #512F84;
+    color: #512F84;
+    padding: 7px 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1000 !important;
+    position: relative;
+}
+.capacidad-yellow-alt {
+    background-color: #512F84;
+    border: 1px solid #BDD630;
+    color: white;
+    padding: 7px 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1000 !important;
+    position: relative;
+}
+.capacidad-yellow h6 {
+    margin-bottom: 0;
+}
+.capacidad-yellow-alt h6 {
+    margin-bottom: 0;
+}
+.old-capacidad {
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    padding: 28px 10px 5px 10px;
+    position: relative;
+    left: -34px;
+    bottom: 18px;
+}
+.old-capacidad-ex {
+    background-color: white;
+    border: 1px solid #512F84;
+    color: #512F84;
+    text-align: center;
+    padding: 35px 10px 5px 10px;
+    position: relative;
+    left: -34px;
+    bottom: 25px;
+    margin-right: -69px;
+}
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #512F84 transparent transparent;
+    margin-top: -18px;
+    position: relative;
+    left: -34px;
+}
+.arrow-right {   
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #512F84 transparent transparent transparent;
+    margin-top: -21px;
+    position: relative;
+}
+.contratar-btn {
+    top: 35px;
+}
+
+.btn-contratar-alt{
+    width: 100%;
+    font-family: 'Futura Md BT';
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+.blue-container-alt{
+    width: 100%;
+    background-color: #BDD630;
+    padding: 10px 15px 25px 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.blue-bas {
+    width: 109% !important;
+}
+.yellow-container-alt{
+    background-color: #512F84;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+.hasta-text-alt-alt {
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.capacidad-text-alt-sat {
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 100px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+.megas-text-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 40px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px 0px 30px;
+}
+.caracteristicas-text-alt{
+    color: #BDD630;
+    font-size: 12px; 
+    margin: 10px 0px 5px 0px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.gigas-text-alt{
+    font-family: 'Futura Md BT';
+    color: #BDD630;
+    font-size: 86px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+
+.money-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 40px;
+    color: #512F84;
+    margin: 0px !important;
+}
+.precio-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 3rem;
+    color: #512F84;
+    margin: 0px !important;
+    line-height: 1;
+}
+.month-text-alt{
+    font-family: 'Futura Md BT';
+    font-size: 35px;
+    color: #512F84;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+.hasta-text-sat {
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.hasta-text-bas {
+    font-family: 'Futura Md BT';
+    color: white;
+    font-size: 1rem;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.special-pack {
+    background-color: #512F84;
+    color: #BDD630;
+    text-align: center;
+    width: 109%;
+}
+.sp-ex {
+    width: 100%;
+}
+.special-pack h6 {
+    margin-bottom: 0;
+}
+
+.flecha-down {
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #512F84; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    position: absolute;
+    top: 25px;
+} 
+.card-inst {
+    text-align: center;
+}
+
+.esp-sat {
+    background-color: #512F84;
+    border: 1px solid #BDD630 !important;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    width: 309px;
+    height: 211px;
+}
+
+.esp-sat-alt {
+    background-color: #BDD630;
+    border: 1px solid #512F84 !important;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    width: 309px;
+    height: 211px;
+}
+.text-card-sat {
+    color: #512F84;
+}
+.card-internet, .card-www, .card-fz {
+    padding: 10px 5px 2px 5px;
+    font-size: 16px;
+}
+.link-sat {
+    color: white;
+    text-decoration: underline !important;
+    font-weight: bold;
+
+}
+.text-card-sat-alt {
+    color: #512F84;
+    font-weight: bolder;
+}
+.small-sat {
+    color: #212528;
+    text-align: center;
+    font-size: 14px;
+}
+p.card-text {
+    font-size: 0.8rem;
+
+}
+.card-group-sat {
+    background-color: #E8E8E8;
+    padding: 5vmin 5vmin;
+}
+.modal-title {
+    text-align: center;
+    color: #512F84;
+    font-size: 1rem;
+}
+.y-table {
+    text-align: center;
+}
+.y-table thead {
+    background-color: #BDD630;
+    color: #512F84;
+}
+.title-y-table {
+    padding: 20px 40px !important;
+}
+.y-table tbody {
+    color: #727272;
+}
+.s-table {
+    color: darkslategray;
+}
+.p-table  {
+    text-align: center;
+}
+.p-table thead {
+    background-color: #512F84;
+    color: #BDD630;
+}
+.p-table tbody {
+    color: #727272;
+}
+.cap-bas {
+    font-size: 40px;
+}
+.megas-bas, .hasta-bas {
+    font-size: 15px;
+}
+.blue-container {
+    text-align: center;
+}
+.y-cont-bas::after {
+    top: 190px;
+}
+.g-bas {
+    font-size: 5rem;
+}
+.g-bas span {
+    font-size: 2rem;
+}
+.money-bas {
+    font-size: 20px;
+}
+.precio-bas {
+    font-size: 2rem;
+}
+.month-bas {
+    font-size: 1rem;
+}
+.cap-y-b {
+    margin-top: 1vmin;
+    padding: 10px;
+}
+
+.p-container::after {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #512F84;
+    top: 253px;
+    left: 46%;
+}
+.p-container-bas::after {
+    top: 247px;
+}
+.contrata-sat {
+    font-size: 0.7em;
+}
+.card-anual {
+    width: 100%;
+}
+
+/* Extra extra small devices (phones, 480px and up) */
+@media only screen and (min-width: 479px) and (max-width: 485px) {
+
+    .arrow-left-PFbas {
+        border-width: 0 20px 20px 0;
+        border-color: transparent #512f84 transparent transparent;
+        margin-top: -18px!important;
+        left: -34px;
+    }
+    .arrow-r-bas {
+        left: 107%!important;
+        top: 2px;
+    }
+    .arrow-r-PFext {
+        left: 105.5%!important;
+    }
+    .pospago-yellow-container-inalam:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 154px;
+        margin-left: 0%;
+    }
+    .y-cont-PF-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        margin-top: 38px!important;
+        margin-left: 3%!important;
+    }
+    .container-alam-PF-net:after {
+        margin-top: 40px!important;
+        margin-left: 0%!important;
+    }
+    .container-alam-PF-telfija::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        margin-top: 114px!important;
+        margin:0 20%!important;
+    }
+    .yellow-container-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        margin-top: 40px!important;
+        margin-left: -3%!important;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 155px;
+        margin-left: -5%;
+    }
+    .yellow-container-extremo:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 150px;
+        margin-left: 0%;
+    }
+}
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .sp-ex {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .old-capacidad {
+        width: 67vmin;
+        margin-right: -60px;
+    }
+    .precio-text_alt {
+        font-size: 3rem;
+    }
+    .text-3rd_alt {
+        font-size: 1rem;
+    }
+    .p-card-sat {
+        font-size: 0.5rem;
+    }
+    p.card-text {
+        font-size: 0.6rem;
+    }
+    .arrow-right {
+        left: 54.3vmin;
+    }
+    .p-strong {
+        font-size: 0.7em;
+    }
+    .y-cont-PF-bas::after {
+        top: 116px!important;
+        left:43%!important;
+    }
+    .p-container-bas::after {
+        top: 140px !important;
+    }
+    .p-container-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512f84;
+        top: 140px!important;
+        left: 45%;
+    }
+    .yellow-container-basico {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 115px;
+        left: 44%;
+    }
+    .card-caract {
+        margin-top: 5vmin;
+    }
+    .contrata-sat {
+        font-size: 0.5em;
+    }
+    .blue-container-planpostpago {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .arrow-r-bas {
+        left: 109%;
+        top: 2px;
+    }
+    .arrow-r-ext {
+        left: 105%;
+        top: 1px;
+    }
+    .blue-container-extremo {
+        width: 100%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internettelfija {
+        width: 110%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internet {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PF-internet {
+        width: 80%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .blue-masVelocidad-PF-internet {
+        width: 80%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+    .special-pack-bas-alt {
+        width: 100%;
+    }
+    .special-pack-basico {
+        background-color: #512F84;
+        color: #BDD630;
+        text-align: center;
+        width: 100%!important;
+    }
+    .special-pack-extremo {
+        background-color: #512f84;
+        color: #bdd630;
+        text-align: center;
+        width: 100%!important;
+        margin-top: 20px!important;
+    }
+  }
+/* Extra extra small devices (phones, 431px to 599px) */
+@media only screen and (min-width: 431px) and (max-width: 599px) {
+
+    .pospago-yellow-container-inalam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 150px;
+        left: 46%;
+    }
+    .recibeMas {
+        font-size: 110%;
+        font-weight: 500;
+    }
+}
+
+  
+  /* Extra extra small devices (phones, 400px to 600px) */
+@media only screen and (min-width: 320px) and (max-width: 430px){
+
+    /*.pospago-yellow-container-inalam:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 109px;
+        margin: 0;
+        }*/
+    
+        .pospago-capacidad-text{
+            font-family: 'Futura Md BT';
+            color: #95C841;
+            font-size: 70px;
+            text-align: center;
+            margin: 0px;
+            margin-bottom: -0.2em;
+            line-height: 1;
+        }
+        .pospago-capacidad-text-PF{
+            font-family: 'Futura Md BT';
+            color: #95C841;
+            font-size: 70px;
+            text-align: center;
+            margin: 0px;
+            margin-bottom: -0.2em;
+            line-height: 1;
+        }
+    
+}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+    .sp-ex {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .arrow-right {
+        left: 445px;
+    }
+    .money-text-card {
+        font-size: 1em;
+    }
+    .precio-text_alt {
+        font-size: 2em;
+    }
+    .text-3rd_alt {
+        font-size: 1rem;
+    }
+    .p-card-sat {
+        font-size: 0.6rem;
+    }
+    p.card-text {
+        font-size: 0.6rem;
+    }
+    .old-bas {
+        width: 58vmin;
+    }
+    .arrow-r-bas {
+        left: 105%;
+        top: 2px;
+    }
+    .arrow-r-ext {
+        left: 104%;
+        top: 1px;
+    }
+    .p-strong, p.card-text {
+        font-size: 0.7em;
+    }
+
+    .y-cont-bas::after {
+        top: 327px;
+    }
+    .y-cont-PF-bas::after {
+        top: 157px!important;
+        left:46%!important;
+    }
+    .p-container-bas::after {
+        top: 143px !important;
+    }
+    .p-container-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512f84;
+        top: 145px!important;
+        left: 46%;
+    }
+    .yellow-container-basico {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 157px;
+        left: 45%;
+    }
+    .special-pack-basico {
+        background-color: #512F84;
+        color: #BDD630;
+        text-align: center;
+        width: 100%!important;
+    }
+    .special-pack-extremo {
+        background-color: #512f84;
+        color: #bdd630;
+        text-align: center;
+        width: 90%!important;
+        margin-top: 20px!important;
+    }
+    .mountains {
+        margin-top: .5rem !important;
+    }
+    .contrata-sat {
+        font-size: 0.5em;
+    }
+    .text-caract {
+        font-size: .5em !important;
+    }
+    .card-caract {
+        margin-top: 5vmin;
+    }
+    .blue-container-extremo {
+        width: 90%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt {
+        width: 90%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-planpostpago {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internettelfija {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internet {
+        width: 70%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+    }
+    .blue-C-PF-internet {
+        width: 70%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+    }
+    .blue-masVelocidad-PF-internet {
+        width: 70%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+    }
+    .special-pack-bas-alt {
+        width: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    .sp-ex {
+        width: 90%;
+    }
+    .arrow-right {
+        left: 145px;
+    }
+    .precio-text_alt {
+        font-size: 3rem;
+    }
+    .p-card-sat {
+        font-size: 0.8rem;
+    }
+    p.card-text {
+        font-size: 0.6rem;
+    }
+    .gigas-text {
+        font-size: 4rem;
+    }
+    .gigas-text-alt {
+        font-size: 4rem;
+    }
+    .y-cont-bas::after {
+        top: 253px;
+    }
+    .y-cont-PF-bas::after {
+        top: 105px!important;
+        left:40%!important;
+    }
+    .p-container-bas::after {
+        top: 145px !important;
+    }
+    .p-container-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512f84;
+        top: 145px!important;
+        left: 40%;
+    }
+    .yellow-container-basico {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 101px;
+        left: 40%;
+    }
+    .old-bas {
+        width: 40.5vmin;
+    }
+    .arrow-r-bas {
+        left: 107%;
+        top: 2px;
+    }
+    .arrow-r-ext {
+        left: 105.4%;
+        top: 1px;
+    }
+    .special-pack-bas-alt {
+        width: 90%;
+    }
+    .special-pack-basico {
+        background-color: #512F84;
+        color: #BDD630;
+        text-align: center;
+        width: 90%!important;
+    }
+    .special-pack-extremo {
+        background-color: #512f84;
+        color: #bdd630;
+        text-align: center;
+        width: 90%!important;
+        padding-top: 5px;
+    }
+    .p-strong, p.card-text {
+        font-size: 0.7em;
+    }
+    .contrata-sat {
+        font-size: 0.5em;
+    }
+    .blue-container-planpostpago {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internet {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PF-internet {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 0%;
+    }
+    .blue-masVelocidad-PF-internet {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 0%;
+    }
+    .blue-container-internettelfija {
+        width: 110%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-extremo {
+        width: 90%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt {
+        width: 90%!important;
+        background-color: #BDD630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+}
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    .sp-ex {
+        width: 88%;
+    }
+    .arrow-right {
+        left: 224px;
+    }
+    .btn-contratar-alt {
+        font-size: 1rem;
+    }
+    .old-bas {
+        width: 20vmin;
+    }
+    .btn-bas {
+        left: -15px;
+        position: relative;
+        margin-right: -4.5vmin;
+        top: 0;
+    }
+    .btn-c-bas {
+        font-size: 0.6rem;
+    }
+    .special-pack-bas {
+        margin-top: -3.5rem!important
+    }
+    .y-cont-bas .caracteristicas-text {
+        font-size: 10px;
+    }
+    .y-cont-bas .caracteristicas-text-alt {
+        font-size: 10px;
+    }
+    .g-bas {
+        font-size: 2.8em;
+    }
+    .money-bas {
+        font-size: 12px;
+    }
+    .precio-bas {
+        font-size: 2.5rem;
+    }
+    .cap-y-b span {
+        font-size: 7px;
+    }
+    .old-bas h1 {
+        font-size: 1.5rem;
+    }
+    .cap-y-b p {
+        font-size: 0.55rem;
+        margin-bottom: 0;
+    }
+    .arrow-r-bas {
+        left: 120%;
+    }
+    .arrow-r-ext {
+        left: 109%;
+        top: 1px;
+    }
+    .col-lg-2 {
+        flex: 0 0 16.666667%;
+        max-width: 20%;
+    }
+    .y-cont-bas::after {
+        top: 107px;
+    }
+    .y-cont-PF-bas::after {
+        top: 105px!important;
+        left:35%!important;
+    }
+    .p-container-bas::after {
+        top: 160px !important;
+    }
+    .p-container-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512f84;
+        top: 160px!important;
+        left: 34%;
+    }
+    .yellow-container-basico {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 103px;
+        left: 35%;
+    }
+    .cap-y-b {
+        margin-top: 2vmin;
+    }
+    .p-strong {
+        font-size: 0.8em;
+    }
+    .text-caract {
+        font-size: 0.6em !important;
+    }
+    .arrow-extremo {
+        margin-top: -25px;
+    }
+    .contrata-sat {
+        font-size: 0.5em;
+    }
+    .text-caract {
+        font-size: 0.4em !important;
+    }
+    .blue-container-extremo {
+        width: 90%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt {
+        width: 88%!important;
+        background-color: #bdd630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-planpostpago {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internettelfija {
+        width: 110%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internet {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-top: 25%;
+    }
+    .blue-C-PF-internet {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 10%;
+        margin-top: 26%;
+    }
+    .blue-masVelocidad-PF-internet {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 0%;
+    }
+    .special-pack-bas-alt{
+        width: 85%;
+    }
+    .special-pack-basico {
+        background-color: #512F84;
+        color: #BDD630;
+        text-align: center;
+        width: 94%!important;
+        margin-left: -5.5px !important;
+    }
+    .special-pack-extremo {
+        background-color: #512f84;
+        color: #bdd630;
+        text-align: center;
+        width: 88%!important;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    .sp-ex {
+        width: 100%;
+    }
+    .arrow-right {
+        left: 159px;
+    }
+    .arrow-r-bas {
+        left: 112%;
+    }
+    .arrow-r-ext {
+        left: 110%;
+        top: 1px;
+    }
+    .btn-contratar-alt {
+        font-size: 1.5rem;
+    }
+    .precio-text_alt {
+        font-size: 5rem;
+    }
+    .old-bas {
+        width: 25vmin;
+    }
+    .btn-bas {
+        left: -15px;
+        position: relative;
+        margin-right: -4.5vmin;
+        top: 0;
+    }
+    .btn-c-bas {
+        font-size: 0.6rem;
+    }
+    .special-pack-bas {
+        margin-top: -3.5rem!important
+    }
+
+    .p-strong {
+        font-size: 0.9em;
+    }
+    .text-caract {
+        font-size: 0.7em !important;
+    }
+    
+    .textocentrado{
+             left:-20px;
+    }
+    .precio-bas {
+        font-size: 2rem;
+    }
+    .p-container-bas::after{
+        top: 145px!important;
+    }
+    .p-container-bas::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #512f84;
+        top: 145px!important;
+        left: 55%!important;
+    }
+    .yellow-container-basico {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-basico::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 103px;
+        margin: 0 22%;
+    }
+    .y-cont-PF-bas::after {
+        top: 105px!important;
+        margin-left: 20% !important;
+    }
+    .special-pack-bas-alt {
+        width: 160%;
+    }
+    .special-pack-basico {
+        background-color: #512F84;
+        color: #BDD630;
+        text-align: center;
+        width: 172%!important;
+        margin-left: -5.5px !important;
+    }
+    .special-pack-extremo {
+        background-color: #512f84;
+        color: #bdd630;
+        text-align: center;
+        width: 101%!important;
+    }
+    .blue-container-planpostpago {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-C-PF-internet {
+        width: 124%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+        margin-top: 21%;
+    }
+    .blue-masVelocidad-PF-internet {
+        width: 124%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .blue-container-internettelfija {
+        width: 110%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-internet {
+        width: 124%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+    .blue-container {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-alt {
+        width: 100%!important;
+        background-color: #BDD630;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .caracteristicas-text-alt{
+        color: #BDD630;
+        font-size: 11px; 
+        margin: 10px 0px 5px 0px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    .blue-container-extremo {
+        width: 100%!important;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .contrata-sat {
+        font-size: 0.5em;
+    }
+    
+  }
+
+
+.suscribe-text-titulos {
+    font-family: Frutiger LT Std;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*portabilidad----------------------------------------------------------*/
+
+
+
+
+
+.header-purple {
+    background-color: #512F84;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.title {
+    color: #512F84;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
+}
+.strong-t {
+    color: #512F84;
+}
+.h-gray {
+    color: #4E5154;
+}
+.gray-stripe {
+    background-color: #F4F4F5;
+    padding: 20px 0;
+}
+.white-stripe {
+    background-color: white;
+    padding: 20px 0;
+}
+.steps {
+    width: 65%;
+}
+.step-text {
+    color: #512F84;
+}
+.small-text {
+    color: #4E5154;
+}
+.formato-download {
+    text-decoration: underline;
+    color: #512F84;
+}
+.strong-small {
+    color: #512F84;
+}
+.dudas {
+    background-color: #BDD630;
+    padding: 20px 0;
+    text-align: center;
+}
+.strong-dudas {
+    font-weight: bolder;
+}
+.terminos {
+    text-align: center;
+    color: #212528;
+}
+.step-container {
+    text-align: right;
+}
+
+
+.img-sat-sat{
+    width: 40%;
+}
+
+/*.caratula-sat{
+        width: 100px;
+}*/
+
+
+.tablastamodal>tr>th{
+    color: #622b9a !important;
+}
+
+
+
+.pospago-promocion {
+    position: absolute;
+    left: 26px;
+}
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .text-card, .wifi-text, .pagos {
+        font-size: 0.8em;
+    }
+    .prepago-precio-card::after {
+        border-width: 128px 0 128px 70px;
+        border-color: transparent;
+        left: 40.5vmin;
+        top: 0vmin;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    
+    }
+    
+    .pospago-promocion-img {
+        width: 90% !important;
+    }
+    .pospago-promocion {
+        /*margin-top: 89px;*/
+        position: relative !important;
+        left: -26px !important;
+    }
+    .pospago-yellow-container-inalam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 148px;
+        left: 46%;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+    .prepago-precio-card::after {
+        border-width: 1px 0 1px 70px;
+        left: 40.5vmin;
+        top: 0vmin;
+    }
+
+    .speed-card {
+        width: 80%;
+        height: auto;
+        margin-top: 1vmin;
+    }
+    .pospago-promocion {
+        margin-top: -15vmin;
+    }
+    .pospago-promocion-img {
+        width: 45%;
+    }
+    .pospago-yellow-container-inalam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 160px;
+        left: 47%;
+    }
+
+    /*.prepago-nuevo>img{
+            left: 70%;
+        position: absolute;
+    }
+*/    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+   
+  
+    .pospago-cards-inalambricas .card-body {
+        padding: 0 2vmin 2vmin 2vmin;
+    }
+    .speed-list {
+        width: 40px;
+    }
+    .pospago-speed-list {
+        margin-left: -10px;
+    }
+    .pospago-capacidad-text-alt {
+        font-size: 1em;
+    }
+    .pospago-precio-text {
+        font-size: 5em;
+    }
+    .pospago-month-text {
+        font-size: 1.5em;
+    }
+    .pospago-btn-contratar {
+        font-size: 1em;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    }
+    .prepago-precio-card::after {
+        border-width: 230px 0 230px 70px;
+        left: 23.3vmin;
+    }
+    .pospago-promocion-img {
+        width: 55%;
+    }
+    .pospago-promocion {
+        margin-top: 24vmin;
+    }
+    .pospago-yellow-container-inalam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 125px;
+        left: 41%;
+    }
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    .tamanio_letra {
+        font-size: 16.64px;
+    }
+    .pospago-text-casa {
+        font-size: 10px;
+    }
+    .prepago-precio-card::after {
+        border-width: 128px 0 128px 70px;left: 40.5vmin;
+        top: 0vmin;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    }
+    .prepago-precio-card::after {
+        border-width: 177px 0 177px 70px;
+        left: 33vmin;
+        top: 0vmin;
+    }
+    .pospago-promocion-img {
+        width: 64%;
+    }
+    .pospago-promocion {
+        margin-top: 5vmin;
+    }
+    .pospago-yellow-container-inalam::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 135px;
+        left: 41%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+    
+   
+    .pospago-promocion-img {
+        width: 64%;
+    }
+    .pospago-promocion {
+        margin-top: 5vmin;
+    }
+    .pospago-yellow-container-inalam::after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid rgba(189, 213, 48, 1);
+        top: 135px;
+        left: 46%;
+    }
+    
+  }
+
+  .bajatexto{
+    top: 30px;
+  }
+
+  .alineacajas{
+    top: 60px;
+  }
+
+
+.prepago_yc_precio_3>strong{
+    font-family: 'futura' !important;
+}
+
+
+#prepago-modal-label{
+    font-family: 'futura' !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#title-inalam {
+    color: #512F84;
+    padding-bottom: 10px;
+}
+.switch-inalam {
+    background-color: #F4F4F5;
+    padding: 20px 0;
+}
+.tab-switch-inalam {
+    margin-top: 0;
+}
+.flecha-abajo-inalam {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #F4F4F5;
+    position: absolute;
+    bottom: -44px;
+}
+.t-container-inalam {
+    text-align: center;
+    color: #4E5154;
+}
+.pospago-hasta-inalam {
+    font-size: 0.7rem;
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.suscribe-pospago {
+    background-color: #512F84;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-prepago {
+    background-color: #F4F4F5;
+    border: 1px solid #B3B3B3;
+    color: #707070;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.pospago-card-group-funciona {
+    background-color: #E8E8E8;
+    padding: 5vmin 10vmin 5vmin ;
+    width: 100%;
+    text-align: center;
+}
+.pospago-card-group-beneficios {
+    background-color: none;
+    text-align: center;
+}
+.col-12.small-inalam {
+    top: 10vmin;
+    text-align: center;
+    color: #212528;
+    font-size: 18px;
+}
+#T_card {
+    color: #512F84;
+    padding: 20px 0 35px 0;
+    font-family: 'Frutiger LT Std';
+}
+
+.pospago-cards-inalambricas {
+    background-color: #512F84;
+    border: 1px solid #512F84;
+    text-align: center;
+    color: white;
+    margin:0 2vmin;
+    height: 211px;
+}
+.pospago-lista-inalam {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+.pospago-lista-inalam li {
+    font-size: 14px;
+}
+.pospago-cards-inalambricas .card-body {
+    padding: 2vmin 18px ;
+}
+#wifi {
+    width: 71px;
+    height: 71px;
+}
+#wifi-text {
+    margin-top: 4vmin;
+}
+.pospago-speed {
+    font-size: 9px;
+    bottom: 0;
+    font-weight: normal;
+}
+.pospago-divisor {
+    border-right: 1px solid white;
+}
+.pospago-strong-inalam {
+    color: #BDD72C;
+}
+.pospago-link {
+    text-decoration: underline;
+}
+
+.pospago-yellow-container-inalam{
+    background-color: #BDD530;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+.pospago-yellow-container-inalam:after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(189, 213, 48, 1);
+    margin: 0;
+}
+.pospago-title-precio {
+    font-size: 1.5em;
+}
+.prepago-nuevo {
+    margin-top: -18px;
+    margin-left: -17px;
+}
+
+.suscribe-inalam-active {
+    background-color: #512F84 !important;
+    color: white !important;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+.suscribe-inalam-inactive {
+    background-color: #F4F4F5 !important; 
+    border: 1px solid #B3B3B3 !important;
+    color: #707070 !important;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.prepago-precio-card {
+    background-color: #512F84;
+    padding: 3vmin;
+    display: flex;
+    align-items: center;
+    font-family: 'Futura Md BT';
+    margin-left: 0;
+    text-align: center;
+}
+.prepago-precio-card::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 128px 0 128px 70px;
+    border-color: transparent transparent transparent #512F84;
+    left: 40.5vmin;
+    top: 0vmin;
+}
+.prepago-money {
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Futura';
+}
+.prepago-precio {
+    color: white;
+    font-size: 5em;
+}
+.prepago-card-info {
+    padding-left: 15vmin;
+}
+.prepago-card {
+    font-family: 'Futura Hv BT';
+    border: 1px solid #707070;
+    background-color: #F4F4F5;
+    color: #512F84;
+}
+.prepago-recarga {
+    position: absolute;
+    background-color: #16933A;
+    z-index: 2;
+    color: white;
+    padding: 2vmin 4vmin;
+    top: -6vmin;
+    left: -0.2vmin;
+}
+.prepago-recarga h4 {
+    text-shadow: 0px 3px 2px #00000067;
+    margin-bottom: 0;
+}
+.prepago-lista-inalam .text-card-prepago {
+    font-size: 1.5em;
+    font-family: 'Futura';
+}
+.prepago-lista-inalam small {
+    font-size: 1em !important;
+}
+.prepago-lista-inalam {
+    list-style: none;
+}
+.prepago-btn {
+    background-color: #138542;
+    color: white;
+    border-radius: 26px;
+    padding: 1vmin 4vmin;
+    font-size: 1.2em;
+}
+.prepago-btn:hover {
+    background-color: #512F84;
+    color: white;
+}
+.prepago-btn span {
+    margin: 3vmin;
+}
+.prepago-btn-contratar {
+    display: flex;
+    align-items: center;
+    font-family: 'Futura';
+}
+.pospago-precio-text {
+    font-family: 'Futura Md BT';
+    font-size: 5em;
+    color: #ffffff;
+    margin: 0px !important;
+    line-height: 1;
+}
+.pospago-month-text {
+    font-family: 'Futura Md BT';
+    font-size: 2em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px !important;
+    line-height: 1;
+}
+#prepago-title {
+    color: #6E6E6E;
+    font-family: 'Frutiger LT Std';
+    src: url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot');
+    src: url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff2') format('woff2'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff') format('woff'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf') format('truetype'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.svg#FrutigerLTStd-Black') format('svg');
+   
+    font-weight: bolder;
+}
+.prepago-title-1 {
+    color: #6E6E6E;
+    font-family: 'Frutiger LT Std';
+    src: url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot');
+    src: url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff2') format('woff2'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff') format('woff'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf') format('truetype'),
+        url('../media/fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.svg#FrutigerLTStd-Black') format('svg');
+   
+
+}
+.pospago-capacidad-text-alt{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 26px; 
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    margin-right: 5px;
+}
+.pospago-btn-contratar{
+    width: 100%;
+    font-family: 'Futura Md BT';
+    font-size: 26px;
+    text-align: center;
+    line-height: 1;
+    background-color: #ffffff;
+    color: #512F84;
+    text-transform: uppercase;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 0px;
+}
+.pospago-speed-list {
+    width: 24px;
+}
+.prepago-title-activacion {
+    text-align: center;
+    color: #512F84;
+}
+.prepago-yellow-card {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 3px solid #512F84;
+    height: 300px;
+    width: 300px;
+    background-color: #BDD530;
+    color: #512F84;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Futura';
+}
+.prepago_yc_precio {
+    font-weight: bold;
+    font-family: 'Futura' !important;
+    font-size: 4em;
+}
+.prepago-yellow-card p, .prepago-purple-card p, .prepago-green-card p {
+    margin-bottom: 0;
+}
+.prepago_yc_costo {
+    text-align: right;
+    font-size: 2.5em;
+}
+.prepago-yc-info {
+    text-align: center;
+    font-size: 1.1em;
+}
+.prepago_yc_precio_2, .prepago_yc_precio_3 {
+    font-family: 'Futura';
+    font-size: 1.2em;
+}
+.prepago_yc_precio_2 strong,  .prepago_yc_precio_3  {
+    font-weight: black;
+}
+ .prepago_yc_precio_3 {
+    font-family: 'Frutiger';
+}
+.prepago_yc_precio_4{
+    font-size: 1.5em;
+}
+.prepago-purple-card {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 3px solid #BDD530;
+    height: 300px;
+    width: 300px;
+    background-color: #512F84;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Futura';
+}
+.prepago-green-card {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 3px solid #512F84;
+    height: 300px;
+    width: 300px;
+    background-color: #138542;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Futura';
+}
+.prepago_purple_ban {
+    background-color: #512F84;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.8vmin;
+}
+.prepago_texto_card {
+    margin-top: 20px;
+}
+.prepago-link {
+    color: white;
+    text-decoration: underline;
+}
+#recicle, #plazo-forzoso, #interface {
+    width: 25%;
+}
+#prepago-modal-label {
+    color: #138542;
+    font-size: 2.5em;
+    font-family: 'Frutiger';
+    font-weight: bolder;
+    width: 10000px;
+}
+.prepago-modal-header {
+    padding: 5vmin 10vmin;
+}
+.numero-uno {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #16933A;
+    background-color: #16933A;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 1.2vmin;
+}
+.modal-numero {
+    color: white;
+}
+.numero-text {
+    color: #707070;
+    font-weight: 300;
+    font-family: 'Futura';
+}
+.modal-dispo {
+    background-color: #512F84;
+    color: white;
+    padding: 3vmin;
+}
+.modal-dispo::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27px 0 27px 15px;
+    /*border-color: transparent transparent transparent #512F84;*/
+    top: 49.9%;
+    left: 97.3%;
+}
+.modal-dispo p {
+    margin-bottom: 0;
+}
+
+.modal-link {
+    color: #4D2E7E;
+    text-decoration: underline;
+}
+.prepago-modal-body {
+    padding: 35px;
+}
+.modal-conditions {
+    text-align: center;
+    color: #707070;
+}
+.modal-dudas {
+    font-weight: bold;
+}
+.telefono {
+    text-decoration: underline;
+    color: #707070;
+}
+.cerrar-modal {
+    font-size: 2.5rem;
+}
+.prepago-link {
+    text-decoration: underline !important;
+}
+.inalamabricon-gigas-text{
+    font-family: 'Futura Md BT';
+    color: #512F84;
+    font-size: 86px;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+}
+#terminos_condiciones, .prepago_tc {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buen_fin {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .visualizadormayor{
+        z-index: 99;
+        left: 0px;
+        top: 40px;
+    }
+    .blue-bas {
+        width: 100% !important;
+    }
+    .text-card, .wifi-text, .pagos {
+        font-size: 0.8em;
+    }
+    .prepago-precio-card::after {
+        border-width: 108px 0 98px 70px;
+        border-color: transparent;
+        left: 40.5vmin;
+        top: 0vmin;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    }
+    
+    .adecuar{
+        max-width: 100% !important;
+    }
+    .blue-container-extremo {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .hasta-text-masVelocidad {
+        color: #fff;
+        font-size: 2rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .hasta-text-masVelocidad-PF {
+        color: #fff;
+        font-size: 2rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .blue-container-masVelocidad {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-masVelocidad-PF {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam-masVelocidad {
+        margin-right: 17%;
+        margin-left: 9%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .container-alam-masVelocidad-PF {
+        margin-right: 17%;
+        margin-left: 17%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+        color: #512f84;
+    }
+    .container-alam-masVelocidad::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 45px;
+        left:42%;
+    }
+    .container-alam-masVelocidad-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 50px;
+        left:46%;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 90px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .capacidad-text-masVelocidad {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .capacidad-text-masVelocidad-PF {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .recibeMas {
+        font-size: 120%;
+        font-weight: 500;
+    }
+    .recibeMas-PF {
+        font-size: 130%;
+        font-weight: 500;
+    }
+    .masVelocidadMonths{
+        font-weight: bolder;
+        margin: -0.6em 1em;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 52%;
+    }
+    .masVelocidadMonths-PF{
+        font-weight: bolder;
+        margin: -0.7em 1em;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 52%;
+    }
+    .primeros {
+        margin: -0.7em 0.5em;
+        font-size: 17px;
+        margin-left: -16%;
+        margin-bottom: -10%;
+    }
+    .primeros-PF {
+        margin: -0.7em 0.5em;
+        font-size: 15px;
+        margin-left: -16%;
+        margin-bottom: -10%;
+    }
+    .segundo_texto {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .segundo_texto-PF {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .yellow-container-alam-internet {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-alam-internet-PF {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-extremo {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-extremo:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 110px;
+        left: 46%;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+    .prepago-precio-card::after {
+        border-width: 1px 0 1px 70px;
+        left: 40.5vmin;
+        top: 0vmin;
+    }
+
+    .speed-card {
+        width: 80%;
+        height: auto;
+        margin-top: 1vmin;
+    }
+    .blue-container-extremo {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .hasta-text-masVelocidad {
+        color: #fff;
+        font-size: 2.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .hasta-text-masVelocidad-PF {
+        color: #fff;
+        font-size: 2.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .blue-container-masVelocidad {
+        width: 70%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-masVelocidad-PF {
+        width: 70%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam-masVelocidad {
+        margin-left: 5%;
+        margin-right:32%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .container-alam-masVelocidad-PF {
+        margin-left: 18.7%;
+        margin-right:18.7%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+        color: #512f84;
+
+    }
+    .container-alam-masVelocidad::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 50px;
+        left:35%;
+    }
+    .container-alam-masVelocidad-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 55px;
+        left:47%;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 100px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 100px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .capacidad-text-masVelocidad {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .capacidad-text-masVelocidad-PF {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .recibeMas {
+        font-size: 130%;
+        font-weight: 500;
+    }
+    .recibeMas-PF {
+        font-size: 130%;
+        font-weight: 500;
+    }
+    .masVelocidadMonths{
+        font-weight: bolder;
+        margin: -0.8em 1em;
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-left: 23%;
+    }
+    .masVelocidadMonths-PF{
+        font-weight: bolder;
+        margin: -0.8em 1em;
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-left: 23%;
+    }
+    .primeros {
+        margin: -0.8em 0.5em;
+        font-size: 20px;
+        margin-left: -18%;
+        margin-bottom: -10%;
+    }
+    .primeros-PF {
+        margin: -0.8em 0.5em;
+        font-size: 20px;
+        margin-left: -18%;
+        margin-bottom: -10%;
+    }
+    .segundo_texto {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .segundo_texto-PF {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .yellow-container-alam-internet {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-alam-internet-PF {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-extremo {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-extremo:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 151px;
+        margin-left: 0%;
+    }
+    .blue-bas {
+        width: 100% !important;
+    }
+    
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+   
+    .speed-card {
+        width: 80%;
+        height: auto;
+    }
+    .pospago-speed {
+        font-size: 0.6em;
+    }
+    .text-card, #wifi-text {
+        font-size: 0.7em;
+    }
+    #wifi {
+        margin-top: 2vmin;
+    }
+    #wifi-text {
+        margin-top: 10px;
+    }
+    .conexiones {
+        width: 85%;
+    }
+    #casa {
+        width: 30%;
+    }
+    .pospago-text-casa {
+        font-size: 11px;
+    }
+    #pospago-logON {
+        width: 42%;
+    }
+    .pospago-logON {
+        font-size: 0.8em;
+    }
+    .p-speed {
+        font-size: 7px;
+    }
+    .pospago-cards-inalambricas .card-body {
+        padding: 0 2vmin 2vmin 2vmin;
+    }
+    .speed-list {
+        width: 40px;
+    }
+    .pospago-speed-list {
+        margin-left: -10px;
+    }
+    .pospago-capacidad-text-alt {
+        font-size: 1em;
+    }
+    .pospago-precio-text {
+        font-size: 5em;
+    }
+    .pospago-month-text {
+        font-size: 1.5em;
+    }
+    .pospago-btn-contratar {
+        font-size: 1em;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    }
+    .prepago-precio-card::after {
+        border-width: 230px 0 230px 70px;
+        left: 23.3vmin;
+    }
+    .blue-bas{
+        width: 90% !important;
+    }
+    .blue-container-extremo {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .hasta-text-masVelocidad {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .hasta-text-masVelocidad-PF {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .blue-container-masVelocidad {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-masVelocidad-PF {
+        width: 90%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam-masVelocidad {
+        margin-right: 10%;
+        margin-left: 0%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .container-alam-masVelocidad-PF {
+        margin-right: 10%;
+        margin-left: 0%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+        color: #512f84;
+
+    }
+    .container-alam-masVelocidad::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 50px;
+        left:40%;
+    }
+    .container-alam-masVelocidad-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 57px;
+        left:40%;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .capacidad-text-masVelocidad {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .capacidad-text-masVelocidad-PF {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .recibeMas {
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .recibeMas-PF {
+        font-size: 120%;
+        font-weight: 500;
+    }
+    .masVelocidadMonths{
+        font-weight: bolder;
+        margin: -0.8em 1em;
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-left: 22%;
+    }
+    .masVelocidadMonths-PF{
+        font-weight: bolder;
+        margin: -0.8em 1em;
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-left: 22%;
+    }
+    .primeros {
+        margin: -0.8em 0.5em;
+        font-size: 19px;
+        margin-left: -14%;
+        margin-bottom: -10%;
+    }
+    .primeros-PF {
+        margin: -0.8em 0.5em;
+        font-size: 19px;
+        margin-left: -14%;
+        margin-bottom: -10%;
+    }
+    .segundo_texto {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .segundo_texto-PF {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .yellow-container-alam-internet {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-alam-internet-PF {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-extremo {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-extremo::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 90px;
+        left: 41%;
+    }
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    .pospago-text-casa {
+        font-size: 10px;
+    }
+    .prepago-precio-card::after {
+        border-width: 108px 0 98px 70px;
+        left: 40.5vmin;
+        top: 0vmin;
+    }
+    .prepago-precio {
+        font-size: 4em;
+    }
+    .prepago-precio-card::after {
+        border-width: 177px 0 177px 70px;
+        left: 33vmin;
+        top: 0vmin;
+    }
+    .blue-bas{
+        width: 85% !important;
+    }
+    .blue-container-extremo {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .hasta-text-masVelocidad {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .hasta-text-masVelocidad-PF {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .blue-container-masVelocidad {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-masVelocidad-PF {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam-masVelocidad {
+        margin: 0px 0px;
+        margin-left: 0%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .container-alam-masVelocidad-PF {
+        margin: 0px 0px;
+        margin-left: 0%;
+        padding-bottom: 1rem!important;
+        border-radius: 8px 8px 0px 0px;
+        color: #512f84;
+
+    }
+    .container-alam-masVelocidad::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 42px;
+        left:44%;
+    }
+    .container-alam-masVelocidad-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 51px;
+        left:44%;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .capacidad-text-masVelocidad {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .capacidad-text-masVelocidad-PF {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .recibeMas {
+        font-size: 70%;
+        font-weight: 500;
+    }
+    .recibeMas-PF {
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .masVelocidadMonths{
+        font-weight: bolder;
+        margin: -1em 1em;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 20%;
+    }
+    .masVelocidadMonths-PF{
+        font-weight: bolder;
+        margin: -1.2em 1em;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 21%;
+    }
+    .primeros {
+        margin: -1em 0.5em;
+        font-size: 14px;
+        margin-left: -16%;
+        margin-bottom: -10%;
+    }
+    .primeros-PF {
+        margin: -1.2em 0.5em;
+        font-size: 14px;
+        margin-left: -16%;
+        margin-bottom: -10%;
+    }
+    .segundo_texto {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .segundo_texto-PF {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .yellow-container-alam-internet {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-alam-internet-PF {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-extremo {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-extremo:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 100px;
+        left: 46%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+    
+    .text-card, .wifi-text {
+        font-size: 0.9em;
+    }
+    #wifi, .card-speed {
+        margin-top: 3vmin;
+    }
+    .wifi-text {
+        margin-top: 5vmin;
+    }
+    .speed-list {
+        width: 40px;
+    }
+    .speed-card {
+        width: 60%;
+        height: auto;
+    }
+    .p-speed {
+        font-size: 10px;
+    }
+    .pospago-text-casa {
+        font-size: 13px;
+    }
+    .prepago-precio-card::after {
+        border-width: 108px 0 98px 70px;
+        left: 268px;
+        top: 0vmin;
+    }
+    .suscribe-pospago {
+        margin-right: 2vmin;
+    }
+    .conexiones {
+        width: 60%;
+    }
+    .prepago-card-info {
+        padding-left: 75px;
+    }
+    #wifi {
+        width: 37%;
+        height: auto;
+    }
+    .pospago-speed-list {
+        width: 40px;
+    }
+    .blue-bas{
+        width: 160% !important;
+    }
+    .blue-container-extremo {
+        width: 100%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .yellow-container-extremo {
+        background-color: #bdd530;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .yellow-container-extremo:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #bdd530;
+        top: 100px;
+        left: 46%;
+    }
+    .yellow-container-alam-internet {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .yellow-container-alam-internet-PF {
+        background-color: #bdd530!important;
+        padding: 15px;
+        text-align: center;
+        padding: 10px 15px 25px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .hasta-text-masVelocidad {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .hasta-text-masVelocidad-PF {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .blue-container-masVelocidad {
+        width: 124%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .blue-container-masVelocidad-PF {
+        width: 124%;
+        background-color: #512f84;
+        padding: 10px 15px 25px;
+        margin-bottom: 15px;
+    }
+    .container-alam-masVelocidad::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 42px;
+        left:52%;
+    }
+    .container-alam-masVelocidad-PF::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid;
+        border-top: 15px solid #bdd530;
+        top: 37px;
+        left:55%;
+    }
+    .pospago-capacidad-text{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .pospago-capacidad-text-PF{
+        font-family: 'Futura Md BT';
+        color: #95C841;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+    }
+    .capacidad-text-masVelocidad {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .capacidad-text-masVelocidad-PF {
+        color: #95c841;
+        margin: 14px;
+        font-size: 60px;
+    }
+    .container-alam-masVelocidad {
+        margin: 0px 0px;
+        margin-left: 16%;
+        padding-bottom: 1rem;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .container-alam-masVelocidad-PF {
+        margin: -8px;
+        margin-left: 19%;
+        padding-bottom: 1rem;
+        border-radius: 8px 8px 0px 0px;
+        color: #512f84;
+    }
+    .recibeMas {
+        font-size: 70%;
+        font-weight: 500;
+    }
+    .recibeMas-PF {
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .masVelocidadMonths{
+        font-weight: bolder;
+        margin: -1em 1em;
+        font-size: 14px;
+        margin-bottom: -2%;
+        margin-left: 20%;
+    }
+    .masVelocidadMonths-PF{
+        font-weight: bolder;
+        margin: -1.2em 1em;
+        font-size: 16px;
+        margin-bottom: -2%;
+        margin-left: 22%;
+    }
+    .primeros {
+        margin: -1em 0.5em;
+        font-size: 14px;
+        margin-left: -15%;
+        margin-bottom: -10%;
+    }
+    .primeros-PF {
+        margin: -1.2em 0.5em;
+        font-size: 15px;
+        margin-left: -17%;
+        margin-bottom: -10%;
+    }
+    .segundo_texto {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+    .segundo_texto-PF {
+        display:flex;
+        left: 15%;
+        top: -10px;
+    }
+  }
+
+
+  .inalambrico_alado_20{
+        padding-left: 20px;
+  }
+
+
+  .color_titulos_small{
+    color: #512f84 !important;
+  }
+
+
+
+  div>.inalambrico_{
+        padding-left: 3px;
+  }
+
+h2>.inalambrico_{
+        padding-left: 3px;
+  }
+
+
+   div>.alambrico_{
+        padding-left: 3px;
+  }
+
+h2>.alambrico_{
+        padding-left: 3px;
+  }
+
+
+  div>.alambrico_{
+        padding-left: 3px;
+  }
+
+h2>.alambrico_{
+        padding-left: 3px;
+  }
+
+
+
+
+
+
+
+.alinear_izquierda{
+    text-align: left;
+}
+
+
+
+.color_blanco{
+    color: white !important;
+}
+
+.prepago-recarga>h4{
+    font-family: futura !important;
+}
+
+
+.color_verde_titulo{
+    background: #00953a !important;
+}
+
+
+.megas-tel>.linea-text{
+    font-size:0.9rem !important;
+}
+
+
+ .old-capacidad-tel>span{
+    font-size: 13px !important;
+ }
+
+.telconteins_fronterizo{
+    margin-left: 50px;
+}
+
+.linea_fronterizos{
+    font-size: 14px;
+}
+ 
+.cap-tel_fronterizos{
+    font-size: 4.5em !important;
+}
+.blue_fronterizo{
+    width: 142px !important;
+}
+
+.tamanio_letra{
+    font-size: 14.6px;
+}
+
+.tamanio_letra_fronterizo{
+    font-size: 13.6px;
+}
+
+
+.inputmap{
+    position: absolute;
+    left: 193px !important;
+    top: 11px !important;
+    width: 500px;
+    height: 40px;
+}
+
+.alinea_tamanio_{
+    height: 40px;
+}
+
+
+.alinearmapa{
+    top:-90px;
+}
+
+.visualizadormayor{
+    z-index: 99;
+    left: -10px;
+}
+
+.loader_spin {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #62259d; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  left: 45%;
+position: absolute;
+top: 40%;
+}
+
+.loading {
+        position: absolute;
+        width: 1060px;
+        height: 600px;
+        background: rgba(0,0,0,.5);
+        z-index: 999999;
+        display: none;
+        top: 200px;
+        }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.form_contrata_modal{
+    width: 60%;
+}
+
+.primero_modal_contrata{
+    z-index: 99999 !important;
+}
+
+
+.subr{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.subtitulos{
+ background-color: gray !important;
+} 
+
